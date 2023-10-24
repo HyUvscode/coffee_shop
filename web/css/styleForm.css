@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/bg_6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    width: 460px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.login form {
+    font-size: 15px;
+}
+
+.login form .form-group {
+    margin-bottom: 10px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 5px;
+}
+p{
+    color: red;
+    margin-bottom: 0;
+}
