@@ -1,12 +1,12 @@
 <%-- 
     Document   : index
-    Created on : Nov 1, 2022, 9:21:42 AM
-    Author     : thaiq
+    Created on : Oct 26, 2023, 1:41:02 AM
+    Author     : khuy
 --%>
 
 <%@page import="DAOs.CategoryDAO"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.Models.products"%>
+<%@page import="Models.products"%>
 <%@page import="java.sql.Array"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="DAOs.ProductDAO"%>

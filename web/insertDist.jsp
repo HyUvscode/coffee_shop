@@ -1,7 +1,7 @@
 <%-- 
    Document   : insertDist
-   Created on : Jul 13, 2023, 10:15:08 AM
-   Author     : Dao Thien Hieu Loi - CE171675
+    Created on : Oct 26, 2023, 1:41:02 AM
+    Author     : khuy
 --%>
 
 <%@page import="java.sql.ResultSet"%>

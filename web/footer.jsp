@@ -1,7 +1,7 @@
 <%-- 
     Document   : footer
-    Created on : Nov 1, 2022, 10:31:45 AM
-    Author     : thaiq
+    Created on : Oct 26, 2023, 1:41:02 AM
+    Author     : khuy
 --%>
 
 <%@page import="DAOs.CategoryDAO"%>

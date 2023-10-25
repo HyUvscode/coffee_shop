@@ -1,7 +1,7 @@
 <%-- 
     Document   : blog-single
-    Created on : Nov 1, 2022, 10:03:19 AM
-    Author     : thaiq
+    Created on : Oct 26, 2023, 1:41:02 AM
+    Author     : khuy
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
