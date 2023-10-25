@@ -1,12 +1,11 @@
 <%-- 
     Document   : insertStaff
-    Created on : Oct 24, 2023, 9:52:30 PM
-    Author     : khuy
+    Created on : Jul 11, 2023, 5:54:23 PM
+    Author     : Dao Thien Hieu Loi - CE171675
 --%>
 
-
-<%@page import="Models.accounts"%>
-<%@page import="DAOs.AccountDAO"%>
+<%@page import="com.Models.accounts"%>
+<%@page import="com.DAOs.AccountDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

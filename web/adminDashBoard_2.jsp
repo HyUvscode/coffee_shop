@@ -1,12 +1,12 @@
 <%-- 
-    Document   : admindashboard_2
-    Created on : Oct 24, 2023, 9:43:40 PM
-    Author     : khuy
+    Document   : managerdashboard
+    Created on : Nov 2, 2022, 11:52:23 AM
+    Author     : thaiq
 --%>
 
-<%@page import="DAOs.ProductDAO"%>
-<%@page import="Models.accounts"%>
-<%@page import="DAOs.AccountDAO"%>
+<%@page import="com.DAOs.ProductDAO"%>
+<%@page import="com.Models.accounts"%>
+<%@page import="com.DAOs.AccountDAO"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -24,7 +24,7 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -119,7 +119,7 @@
                 font-weight: bold;
                 border: none;
             }
-
+            
             .btn {
                 display: flex;
                 align-items: center;
@@ -139,7 +139,7 @@
             .btn:hover {
                 background-color: RoyalBlue;
             }
-
+            
             .abc {
                 line-height: 0.7;
             }
@@ -173,7 +173,7 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar -->
             <div class="bg-white" id="sidebar-wrapper">
-
+                
                 <div class="list-group list-group-flush my-3">
                     <a class="navbar-brand sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom abc" href="#" style="text-align: center">Antoinétee<br/>
                         <small>Coffee</small>

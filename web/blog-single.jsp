@@ -1,7 +1,7 @@
 <%-- 
-    Document   : blog-single_2
-    Created on : Oct 24, 2023, 9:47:09 PM
-    Author     : khuy
+    Document   : blog-single
+    Created on : Nov 1, 2022, 10:03:19 AM
+    Author     : thaiq
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <jsp:include page="navbar_3.jsp" />
+         <jsp:include page="navbar_3.jsp" />
         <!-- END nav -->
 
         <section class="home-slider owl-carousel">
@@ -60,19 +60,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 ftco-animate">
-                        <h2 class="mb-3">The History and Legends of Coffee</h2>
-                        <p>Coffee, with its rich aroma and invigorating properties, has a history shrouded in legends and tales. In this article, we will explore the fascinating origins of coffee, from ancient Ethiopian legends to its journey across the Arabian Peninsula and beyond..</p>
+                        <h2 class="mb-3">10 Tips For The Traveler</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
                         <p>
-                            <img src="imageBlog/blog3.jpg" alt="" class="img-fluid">
+                            <img src="images/image_1.jpg" alt="" class="img-fluid">
                         </p>
-                        <h2 class="mb-3 mt-5">#2. The Ethiopian Discovery: Kaldi and the Dancing Goats</h2>
-                        <p>Legend has it that coffee was first discovered by a goat herder named Kaldi in the highlands of Ethiopia. Witnessing his goats becoming energized after consuming the red berries of a certain plant, Kaldi's curiosity led him to try the berries himself, thus discovering the stimulating effects of coffee.</p>
+                        <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
+                        <h2 class="mb-3 mt-5">#2. Creative WordPress Themes</h2>
+                        <p>Temporibus ad error suscipit exercitationem hic molestiae totam obcaecati rerum, eius aut, in. Exercitationem atque quidem tempora maiores ex architecto voluptatum aut officia doloremque. Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
                         <p>
-                            <img src="imageBlog/blog4.jpg" alt="" class="img-fluid">
+                            <img src="images/image_2.jpg" alt="" class="img-fluid">
                         </p>
-                        <p>From Ethiopia, coffee made its way to the Arabian Peninsula, where it gained popularity among Sufi mystics. The stimulating effects of coffee helped them stay awake during their nighttime prayers, leading to the spread of coffee cultivation and the establishment of the first coffeehouses.</p>
-                        <p>Coffee's popularity continued to grow, reaching Europe during the Age of Enlightenment. Coffeehouses became intellectual and cultural hubs, where scholars, artists, and philosophers gathered to engage in lively discussions and exchange ideas. The "coffeehouse culture" became an integral part of European society.</p>
-                        <p>The demand for coffee skyrocketed, leading to the establishment of coffee plantations in various regions worldwide. From colonial powers to the coffee trade routes, coffee became a valuable commodity that shaped economies and societies, influencing cultures and traditions around the globe.</p>
+                        <p>Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis vel ab consectetur suscipit veritatis nulla quos quia aspernatur perferendis, libero sint. Error, velit, porro. Deserunt minus, quibusdam iste enim veniam, modi rem maiores.</p>
+                        <p>Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.</p>
+                        <p>Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
+                        <p>Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?</p>
                         <div class="tag-widget post-tag-container mb-5 mt-5">
                             <div class="tagcloud">
                                 <a href="#" class="tag-cloud-link">Life</a>
@@ -83,12 +85,12 @@
                         </div>
 
                         <div class="about-author d-flex">
-                            <div class="bio">
-                                <img style="width: 70%; height: auto; border-radius: 50%" src="imageBlog/chef2.jpg" alt="Image placeholder" class="img-thumbnail img-rounded mx-auto d-block">
+                            <div class="bio align-self-md-center mr-5">
+                                <img style="width: 100%; height: auto; border-radius: 50%" src="images/person_4.jpg" alt="Image placeholder" class="img-thumbnail img-rounded mx-auto d-block">
                             </div>
-                            <div class="desc align-self-md-center col-md-8">
-                                <h3>Miguel</h3>
-                                <p>Introducing Chef Miguel, a master of classic French cuisine. With a deep appreciation for the rich culinary heritage of France, he has honed his skills under renowned French chefs. Chef Miguel's dishes are a testament to his meticulous attention to detail and his ability to showcase the delicate balance of flavors and textures that define French gastronomy. Prepare to be transported to the romantic streets of Paris with each bite of Chef Miguel's culinary creations.</p>
+                            <div class="desc align-self-md-center">
+                                <h3>Lance Smith</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
                             </div>
                         </div>
 
@@ -289,7 +291,7 @@
                 </div>
             </div>
         </section> <!-- .section -->
-        <jsp:include page="footer.jsp" />
+       <jsp:include page="footer.jsp" />
 
 
 

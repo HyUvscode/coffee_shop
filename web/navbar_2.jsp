@@ -1,7 +1,7 @@
 <%-- 
-    Document   : navbar_2
-    Created on : Oct 24, 2023, 9:54:10 PM
-    Author     : khuy
+    Document   : navbar
+    Created on : Nov 1, 2022, 10:28:37 AM
+    Author     : thaiq
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

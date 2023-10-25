@@ -1,11 +1,11 @@
 <%-- 
-    Document   : admindashboard_1
-    Created on : Oct 24, 2023, 9:43:11 PM
-    Author     : khuy
+    Document   : admindashboard
+    Created on : Nov 2, 2022, 11:52:23 AM
+    Author     : Dao Thien Hieu Loi
 --%>
 
-<%@page import="Models.accounts"%>
-<%@page import="DAOs.AccountDAO"%>
+<%@page import="com.Models.accounts"%>
+<%@page import="com.DAOs.AccountDAO"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -23,7 +23,7 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -143,7 +143,7 @@
                 pointer-events: none;
                 cursor: default;
             }
-
+            
             .abc {
                 line-height: 0.7;
             }

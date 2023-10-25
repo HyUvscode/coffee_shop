@@ -1,7 +1,7 @@
 <%-- 
-    Document   : blog-single_3
-    Created on : Oct 24, 2023, 9:47:33 PM
-    Author     : khuy
+    Document   : blog-single
+    Created on : Nov 1, 2022, 10:03:19 AM
+    Author     : thaiq
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <jsp:include page="navbar_3.jsp" />
+         <jsp:include page="navbar_3.jsp" />
         <!-- END nav -->
 
         <section class="home-slider owl-carousel">
@@ -60,19 +60,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 ftco-animate">
-                        <h2 class="mb-3">The Art and Science of Coffee Roasting</h2>
-                        <p>The process of coffee roasting is a delicate balance of artistry and science. In this article, we will explore the intricacies of coffee roasting, from the green beans' transformation into aromatic and flavorful delights.</p>
+                        <h2 class="mb-3">The Magic of Coffee: A Journey through Flavor and Culture</h2>
+                        <p>Coffee, the aromatic elixir that tantalizes our senses and awakens our spirits, holds a special place in the hearts of people around the world. Its rich and complex flavors, combined with its energizing properties, have made it one of the most beloved beverages across cultures and continents. Join me on a journey through the captivating world of coffee as we explore its origins, flavors, and the diverse cultures it has influenced.</p>
                         <p>
-                            <img src="imageBlog/blog5.jpg" alt="" class="img-fluid">
+                            <img src="imageBlog/blog1.jpg" alt="" class="img-fluid">
                         </p>
-                        <h2 class="mb-3 mt-5">#2. The Roasting Process: Chemistry and Transformation</h2>
-                        <p>Coffee roasting is a precise process that involves applying heat to green coffee beans, causing various chemical reactions. We will delve into the Maillard reaction, caramelization, and the breakdown of acids and sugars, all of which contribute to the development of complex flavors and aromas during roasting.</p>
+                        <h2 class="mb-3 mt-5">#2. Origins and Discovery: From Ethiopia to the Arabian Peninsula</h2>
+                        <p>The story of coffee begins in ancient times, in the lush highlands of Ethiopia. Legend has it that a goat herder named Kaldi discovered the stimulating effects of coffee when he noticed his goats becoming lively and energetic after consuming the red berries of a certain plant. This discovery led to the cultivation of coffee and its eventual spread throughout the Arabian Peninsula and beyond.</p>
                         <p>
-                            <img src="imageBlog/blog6.jpg" alt="" class="img-fluid">
+                            <img src="imageBlog/blog2.jpg" alt="" class="img-fluid">
                         </p>
-                        <p>Different roast levels result in distinct flavor profiles. We will discuss the characteristics of light, medium, and dark roast coffees, exploring their flavor profiles, acidity levels, and overall taste experiences. Each roast level offers a unique journey for coffee lovers to embark upon.</p>
-                        <p>Artisanal coffee roasters have perfected the craft of roasting, focusing on small-batch production and meticulous attention to detail. We will explore the passion and expertise behind artisanal roasting, as well as the impact it has on the quality and flavor of the final product.</p>
-                        <p>Roasting plays a pivotal role in the specialty coffee movement. We will discuss how specialty coffee roasters prioritize flavor preservation, emphasize single-origin beans, and employ innovative roasting techniques to highlight the unique characteristics of each coffee variety.</p>
+                        <p>As coffee made its way into different regions, it evolved into a beverage of immense diversity. From the bold and robust flavors of Italian espresso to the smooth and nuanced profiles of Ethiopian Yirgacheffe, each cup of coffee tells a unique story. Coffee beans grown in different climates, altitudes, and soil types acquire distinct characteristics, resulting in a wide range of flavors. From fruity and floral to chocolatey and nutty, the possibilities are endless.</p>
+                        <p>One cannot ignore the role of coffee in shaping cultures and fostering social connections. In many parts of the world, coffee houses or cafés have become vibrant hubs of social activity. These establishments provide a space for people to gather, converse, and savor the pleasures of coffee together. Whether it's the lively tango-infused cafés of Buenos Aires or the serene tea and coffee houses of Japan, coffee has a remarkable ability to bring people together.</p>
+                        <p>Furthermore, the rituals associated with coffee preparation are an art form in themselves. From the delicate pour-over method to the rich and velvety textures of espresso-based drinks, coffee brewing techniques have been honed and perfected over generations. The process of grinding the beans, measuring the right amount, and patiently waiting for the water to extract the flavors creates a sense of anticipation and mindfulness that is both meditative and rewarding.</p>
+                        <p>Coffee has also become an essential part of our daily routines, providing a much-needed boost to kickstart our mornings or provide a midday pick-me-up. Its caffeine content stimulates the central nervous system, enhancing focus and alertness. However, coffee is more than just a jolt of energy. It has been associated with numerous health benefits, such as improved cognitive function, reduced risk of certain diseases, and even enhanced physical performance.</p>
+                        <p>In recent years, the coffee industry has witnessed a surge in specialty coffee culture. Artisanal roasters, passionate baristas, and coffee enthusiasts worldwide have embraced the pursuit of exceptional flavors and ethical sourcing. The focus has shifted towards understanding the journey from bean to cup, emphasizing sustainability, fair trade practices, and direct relationships with farmers. This movement has not only elevated the quality of coffee but also fostered a deeper appreciation for the craftsmanship and dedication behind each cup.</p>
+                        <p>In conclusion, coffee is much more than a mere beverage. It is a cultural phenomenon that has transcended borders and delighted the palates of millions. Its tantalizing flavors, social significance, and health benefits make it an integral part of our lives. So, next time you take a sip of coffee, pause for a moment and savor the magic in your cup—a testament to the wonders of nature and human ingenuity.</p>
                         <div class="tag-widget post-tag-container mb-5 mt-5">
                             <div class="tagcloud">
                                 <a href="#" class="tag-cloud-link">Life</a>
@@ -84,11 +87,11 @@
 
                         <div class="about-author d-flex">
                             <div class="bio">
-                                <img style="width: 70%; height: auto; border-radius: 50%" src="imageBlog/chef3.jpg" alt="Image placeholder" class="img-thumbnail img-rounded mx-auto d-block">
+                                <img style="width: 70%; height: auto; border-radius: 50%" src="imageBlog/chef1.jpg" alt="Image placeholder" class="img-thumbnail img-rounded mx-auto d-block">
                             </div>
                             <div class="desc align-self-md-center col-md-8">
-                                <h3>Julia</h3>
-                                <p>Meet Chef Julia, a culinary enthusiast known for her adventurous spirit and passion for exploring global flavors. With a background in international cuisine, she has traveled the world, immersing herself in diverse culinary traditions and techniques. Join Chef Julia as she takes you on a gastronomic journey, bringing together the best of global cuisine with her own creative twist.</p>
+                                <h3>Alex</h3>
+                                <p>I am thrilled to share with you my culinary journey and the path that has led me to where I am today. My name is Alex, and I have dedicated my life to the world of food and cooking.</p>
                             </div>
                         </div>
 
@@ -289,7 +292,7 @@
                 </div>
             </div>
         </section> <!-- .section -->
-        <jsp:include page="footer.jsp" />
+       <jsp:include page="footer.jsp" />
 
 
 

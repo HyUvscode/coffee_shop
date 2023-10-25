@@ -1,9 +1,8 @@
 <%-- 
-    Document   : navbar_1
-    Created on : Oct 24, 2023, 9:53:52 PM
-    Author     : khuy
+    Document   : navbar
+    Created on : Nov 1, 2022, 10:28:37 AM
+    Author     : thaiq
 --%>
-
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

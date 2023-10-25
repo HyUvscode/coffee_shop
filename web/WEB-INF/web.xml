@@ -2,7 +2,7 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>Controller.HomeServlet</servlet-class>
+        <servlet-class>com.Controller.HomeServlet</servlet-class>
     </servlet>
     <welcome-file-list>
         <welcome-file>
@@ -11,55 +11,55 @@
     </welcome-file-list>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>Controller.LoginServlet</servlet-class>
+        <servlet-class>com.Controller.LoginServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AdminServlet</servlet-name>
-        <servlet-class>Controller.AdminServlet</servlet-class>
+        <servlet-class>com.Controller.AdminServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>StaffServlet</servlet-name>
-        <servlet-class>Controller.StaffServlet</servlet-class>
+        <servlet-class>com.Controller.StaffServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CustomerServlet</servlet-name>
-        <servlet-class>Controller.CustomerServlet</servlet-class>
+        <servlet-class>com.Controller.CustomerServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RoleServlet</servlet-name>
-        <servlet-class>Controller.RoleServlet</servlet-class>
+        <servlet-class>com.Controller.RoleServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LogOutServlet</servlet-name>
-        <servlet-class>Controller.LogOutServlet</servlet-class>
+        <servlet-class>com.Controller.LogOutServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProfileServlet</servlet-name>
-        <servlet-class>Controller.ProfileServlet</servlet-class>
+        <servlet-class>com.Controller.ProfileServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>OrderServlet</servlet-name>
-        <servlet-class>Controller.OrderServlet</servlet-class>
+        <servlet-class>com.Controller.OrderServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>InsertServlet</servlet-name>
-        <servlet-class>Controller.InsertServlet</servlet-class>
+        <servlet-class>com.Controller.InsertServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>changePassServlet</servlet-name>
-        <servlet-class>Controller.ChangePassServlet</servlet-class>
+        <servlet-class>com.Controller.ChangePassServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>insertDistServlet</servlet-name>
-        <servlet-class>Controller.InsertDistServlet</servlet-class>
+        <servlet-class>com.Controller.InsertDistServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditServlet</servlet-name>
-        <servlet-class>Controller.EditServlet</servlet-class>
+        <servlet-class>com.Controller.EditServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>cartServlet</servlet-name>
-        <servlet-class>Controller.CartServlet</servlet-class>
+        <servlet-class>com.Controller.CartServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>

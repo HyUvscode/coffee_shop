@@ -1,13 +1,12 @@
 <%-- 
     Document   : cart
-    Created on : Oct 24, 2023, 9:49:34 PM
-    Author     : khuy
+    Created on : Jul 15, 2023, 9:55:17 PM
+    Author     : Dao Thien Hieu Loi - CE171675
 --%>
 
-
-<%@page import="DAOs.ProductDAO"%>
-<%@page import="Models.products"%>
-<%@page import="Models.cart_items"%>
+<%@page import="com.DAOs.ProductDAO"%>
+<%@page import="com.Models.products"%>
+<%@page import="com.Models.cart_items"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.Models.cart"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

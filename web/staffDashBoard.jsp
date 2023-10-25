@@ -1,12 +1,11 @@
 <%-- 
-    Document   : staffDashBoard
-    Created on : Oct 24, 2023, 9:59:36 PM
-    Author     : khuy
+    Document   : staffdashboard
+    Created on : Nov 2, 2022, 11:47:38 AM
+    Author     : thaiq
 --%>
 
-
-<%@page import="Models.accounts"%>
-<%@page import="DAOs.AccountDAO"%>
+<%@page import="com.Models.accounts"%>
+<%@page import="com.DAOs.AccountDAO"%>
 <%@page import="java.text.DecimalFormat"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -1,7 +1,7 @@
 <%-- 
-    Document   : blog-single_5
-    Created on : Oct 24, 2023, 9:48:22 PM
-    Author     : khuy
+    Document   : blog-single
+    Created on : Nov 1, 2022, 10:03:19 AM
+    Author     : thaiq
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <jsp:include page="navbar_3.jsp" />
+         <jsp:include page="navbar_3.jsp" />
         <!-- END nav -->
 
         <section class="home-slider owl-carousel">
@@ -289,7 +289,7 @@
                 </div>
             </div>
         </section> <!-- .section -->
-        <jsp:include page="footer.jsp" />
+       <jsp:include page="footer.jsp" />
 
 
 

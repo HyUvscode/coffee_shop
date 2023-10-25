@@ -1,9 +1,8 @@
 <%-- 
-    Document   : blog-single_4
-    Created on : Oct 24, 2023, 9:48:03 PM
-    Author     : khuy
+    Document   : blog-single
+    Created on : Nov 1, 2022, 10:03:19 AM
+    Author     : thaiq
 --%>
-
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -37,7 +36,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <jsp:include page="navbar_3.jsp" />
+         <jsp:include page="navbar_3.jsp" />
         <!-- END nav -->
 
         <section class="home-slider owl-carousel">
@@ -61,19 +60,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 ftco-animate">
-                        <h2 class="mb-3">Exploring Coffee Brewing Methods: From Classics to Modern Innovations</h2>
-                        <p>The process of brewing coffee is an art in itself, with various methods and techniques to suit different preferences. In this article, we will explore a range of coffee brewing methods, from traditional classics to modern innovations, each offering a unique brewing experience.</p>
+                        <h2 class="mb-3">The Art and Science of Coffee Roasting</h2>
+                        <p>The process of coffee roasting is a delicate balance of artistry and science. In this article, we will explore the intricacies of coffee roasting, from the green beans' transformation into aromatic and flavorful delights.</p>
                         <p>
-                            <img src="imageBlog/blog7.jpg" alt="" class="img-fluid">
+                            <img src="imageBlog/blog5.jpg" alt="" class="img-fluid">
                         </p>
-                        <h2 class="mb-3 mt-5">#2. Pour-Over Brewing: Embracing Simplicity and Precision</h2>
-                        <p>Pour-over brewing, epitomized by methods like the Hario V60 or Chemex, emphasizes slow and precise water pouring, allowing for optimal extraction and control over the brewing process. We will delve into the art of pour-over brewing, discussing its simplicity, clarity of flavors, and the equipment needed.</p>
+                        <h2 class="mb-3 mt-5">#2. The Roasting Process: Chemistry and Transformation</h2>
+                        <p>Coffee roasting is a precise process that involves applying heat to green coffee beans, causing various chemical reactions. We will delve into the Maillard reaction, caramelization, and the breakdown of acids and sugars, all of which contribute to the development of complex flavors and aromas during roasting.</p>
                         <p>
-                            <img src="imageBlog/blog8.jpg" alt="" class="img-fluid">
+                            <img src="imageBlog/blog6.jpg" alt="" class="img-fluid">
                         </p>
-                        <p>Espresso, the concentrated coffee shot, has become synonymous with coffee culture worldwide. We will explore the espresso brewing process, from grinding and tamping to the extraction time and pressure, highlighting the nuances of this brewing method and its rich, intense flavors.</p>
-                        <p>The French Press brewing method involves steeping coffee grounds in hot water and pressing a plunger to separate the brewed coffee from the grounds. We will discuss the characteristics of French Press brewing, including its full-bodied nature, rich flavors, and the ritualistic experience it offers.</p>
-                        <p>Cold brew, AeroPress, and other alternative brewing methods have gained popularity in recent years. We will explore the unique features and benefits of these methods, such as the smoothness of cold brew or the versatility of the AeroPress, as coffee enthusiasts continue to push the boundaries of brewing innovation.</p>
+                        <p>Different roast levels result in distinct flavor profiles. We will discuss the characteristics of light, medium, and dark roast coffees, exploring their flavor profiles, acidity levels, and overall taste experiences. Each roast level offers a unique journey for coffee lovers to embark upon.</p>
+                        <p>Artisanal coffee roasters have perfected the craft of roasting, focusing on small-batch production and meticulous attention to detail. We will explore the passion and expertise behind artisanal roasting, as well as the impact it has on the quality and flavor of the final product.</p>
+                        <p>Roasting plays a pivotal role in the specialty coffee movement. We will discuss how specialty coffee roasters prioritize flavor preservation, emphasize single-origin beans, and employ innovative roasting techniques to highlight the unique characteristics of each coffee variety.</p>
                         <div class="tag-widget post-tag-container mb-5 mt-5">
                             <div class="tagcloud">
                                 <a href="#" class="tag-cloud-link">Life</a>
@@ -85,11 +84,11 @@
 
                         <div class="about-author d-flex">
                             <div class="bio">
-                                <img style="width: 70%; height: auto; border-radius: 50%" src="imageBlog/chef4.jpg" alt="Image placeholder" class="img-thumbnail img-rounded mx-auto d-block">
+                                <img style="width: 70%; height: auto; border-radius: 50%" src="imageBlog/chef3.jpg" alt="Image placeholder" class="img-thumbnail img-rounded mx-auto d-block">
                             </div>
                             <div class="desc align-self-md-center col-md-8">
-                                <h3>Antonio</h3>
-                                <p>Prepare to indulge in the flavors of Italy with Chef Antonio, a master of Italian cuisine. Hailing from the picturesque region of Tuscany, Chef Antonio's dishes reflect the rich culinary traditions of his homeland. With a focus on fresh, seasonal ingredients and traditional techniques, his creations are a celebration of the simplicity and elegance that defines Italian cooking. Join Chef Antonio on a culinary journey that will transport you to the charming streets of Italy.</p>
+                                <h3>Julia</h3>
+                                <p>Meet Chef Julia, a culinary enthusiast known for her adventurous spirit and passion for exploring global flavors. With a background in international cuisine, she has traveled the world, immersing herself in diverse culinary traditions and techniques. Join Chef Julia as she takes you on a gastronomic journey, bringing together the best of global cuisine with her own creative twist.</p>
                             </div>
                         </div>
 
@@ -290,7 +289,7 @@
                 </div>
             </div>
         </section> <!-- .section -->
-        <jsp:include page="footer.jsp" />
+       <jsp:include page="footer.jsp" />
 
 
 

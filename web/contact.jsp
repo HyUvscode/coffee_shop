@@ -1,9 +1,8 @@
 <%-- 
-    Document   : contect
-    Created on : Oct 24, 2023, 9:50:33 PM
-    Author     : khuy
+    Document   : contact
+    Created on : Nov 1, 2022, 10:04:21 AM
+    Author     : thaiq
 --%>
-
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -49,7 +48,7 @@
 
                         <div class="col-md-7 col-sm-12 text-center ftco-animate">
                             <h1 class="mb-3 mt-5 bread">Contact Us</h1>
-                            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
+                            <p class="breadcrumbs"><span class="mr-2"><a href="index.jsp">Home</a></span> <span>Contact</span></p>
                         </div>
 
                     </div>

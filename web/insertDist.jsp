@@ -1,12 +1,11 @@
 <%-- 
-    Document   : insertDist
-    Created on : Oct 24, 2023, 9:52:09 PM
-    Author     : khuy
+   Document   : insertDist
+   Created on : Jul 13, 2023, 10:15:08 AM
+   Author     : Dao Thien Hieu Loi - CE171675
 --%>
 
-
 <%@page import="java.sql.ResultSet"%>
-<%@page import="DAOs.CategoryDAO"%>
+<%@page import="com.DAOs.CategoryDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

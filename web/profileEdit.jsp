@@ -1,11 +1,11 @@
 <%-- 
-    Document   : profileEdit
-    Created on : Oct 24, 2023, 9:57:22 PM
-    Author     : khuy
+    Document   : Profile
+    Created on : Jul 9, 2023, 11:04:07 AM
+    Author     : Dao Thien Hieu Loi - CE171675
 --%>
 
-<%@page import="Models.accounts"%>
-<%@page import="DAOs.AccountDAO"%>
+<%@page import="com.Models.accounts"%>
+<%@page import="com.DAOs.AccountDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

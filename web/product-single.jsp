@@ -1,9 +1,8 @@
 <%-- 
     Document   : product-single
-    Created on : Oct 24, 2023, 9:56:04 PM
-    Author     : khuy
+    Created on : Nov 1, 2022, 10:04:42 AM
+    Author     : thaiq
 --%>
-
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

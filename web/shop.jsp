@@ -1,7 +1,7 @@
 <%-- 
     Document   : shop
-    Created on : Oct 24, 2023, 9:58:22 PM
-    Author     : khuy
+    Created on : Nov 1, 2022, 10:05:04 AM
+    Author     : thaiq
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <jsp:include page="navbar_5.jsp" />
+         <jsp:include page="navbar_5.jsp" />
         <!-- END nav -->
 
         <section class="home-slider owl-carousel">
@@ -83,7 +83,7 @@
                                                 <div class="menu-entry">
                                                     <a href="#" class="img" style="background-image: url(images/menu-1.jpg);"></a>
                                                     <div class="text text-center pt-4">
-                                                        <h3><a href="productSingle.html">Coffee Capuccino</a></h3>
+                                                        <h3><a href="product-single.html">Coffee Capuccino</a></h3>
                                                         <p>A small river named Duden flows by their place and supplies</p>
                                                         <p class="price"><span>$5.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
@@ -94,7 +94,7 @@
                                                 <div class="menu-entry">
                                                     <a href="#" class="img" style="background-image: url(images/menu-2.jpg);"></a>
                                                     <div class="text text-center pt-4">
-                                                        <h3><a href="productSingle.html">Coffee Capuccino</a></h3>
+                                                        <h3><a href="product-single.html">Coffee Capuccino</a></h3>
                                                         <p>A small river named Duden flows by their place and supplies</p>
                                                         <p class="price"><span>$5.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
@@ -105,7 +105,7 @@
                                                 <div class="menu-entry">
                                                     <a href="#" class="img" style="background-image: url(images/menu-3.jpg);"></a>
                                                     <div class="text text-center pt-4">
-                                                        <h3><a href="productSingle.html">Coffee Capuccino</a></h3>
+                                                        <h3><a href="product-single.html">Coffee Capuccino</a></h3>
                                                         <p>A small river named Duden flows by their place and supplies</p>
                                                         <p class="price"><span>$5.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
@@ -116,7 +116,7 @@
                                                 <div class="menu-entry">
                                                     <a href="#" class="img" style="background-image: url(images/menu-4.jpg);"></a>
                                                     <div class="text text-center pt-4">
-                                                        <h3><a href="productSingle.html">Coffee Capuccino</a></h3>
+                                                        <h3><a href="product-single.html">Coffee Capuccino</a></h3>
                                                         <p>A small river named Duden flows by their place and supplies</p>
                                                         <p class="price"><span>$5.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
@@ -132,7 +132,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-1.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Grilled Beef</a></h3>
+                                                        <h3><a href="product-single.html">Grilled Beef</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -143,7 +143,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-2.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Grilled Beef</a></h3>
+                                                        <h3><a href="product-single.html">Grilled Beef</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -154,7 +154,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-3.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Grilled Beef</a></h3>
+                                                        <h3><a href="product-single.html">Grilled Beef</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -165,7 +165,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-4.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Grilled Beef</a></h3>
+                                                        <h3><a href="product-single.html">Grilled Beef</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -176,7 +176,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-5.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Grilled Beef</a></h3>
+                                                        <h3><a href="product-single.html">Grilled Beef</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -187,7 +187,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dish-6.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Grilled Beef</a></h3>
+                                                        <h3><a href="product-single.html">Grilled Beef</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -203,7 +203,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Lemonade Juice</a></h3>
+                                                        <h3><a href="product-single.html">Lemonade Juice</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -214,7 +214,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Pineapple Juice</a></h3>
+                                                        <h3><a href="product-single.html">Pineapple Juice</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -225,7 +225,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Soda Drinks</a></h3>
+                                                        <h3><a href="product-single.html">Soda Drinks</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -236,7 +236,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-4.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Lemonade Juice</a></h3>
+                                                        <h3><a href="product-single.html">Lemonade Juice</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -247,7 +247,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-5.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Pineapple Juice</a></h3>
+                                                        <h3><a href="product-single.html">Pineapple Juice</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -258,7 +258,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-6.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Soda Drinks</a></h3>
+                                                        <h3><a href="product-single.html">Soda Drinks</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -274,7 +274,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-1.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Hot Cake Honey</a></h3>
+                                                        <h3><a href="product-single.html">Hot Cake Honey</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -285,7 +285,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-2.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Hot Cake Honey</a></h3>
+                                                        <h3><a href="product-single.html">Hot Cake Honey</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -296,7 +296,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-3.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Hot Cake Honey</a></h3>
+                                                        <h3><a href="product-single.html">Hot Cake Honey</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -307,7 +307,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-4.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Hot Cake Honey</a></h3>
+                                                        <h3><a href="product-single.html">Hot Cake Honey</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -318,7 +318,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-5.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Hot Cake Honey</a></h3>
+                                                        <h3><a href="product-single.html">Hot Cake Honey</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -329,7 +329,7 @@
                                                 <div class="menu-wrap">
                                                     <a href="#" class="menu-img img mb-4" style="background-image: url(images/dessert-6.jpg);"></a>
                                                     <div class="text">
-                                                        <h3><a href="productSingle.html">Hot Cake Honey</a></h3>
+                                                        <h3><a href="product-single.html">Hot Cake Honey</a></h3>
                                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                                         <p class="price"><span>$2.90</span></p>
                                                         <p><a href="cart.html" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
@@ -346,8 +346,8 @@
             </div>
         </section>
 
-
-
+   
+        
         <jsp:include page="footer.jsp" />
 
         <!-- loader -->

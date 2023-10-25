@@ -1,9 +1,8 @@
 <%-- 
     Document   : footer
-    Created on : Oct 24, 2023, 9:51:03 PM
-    Author     : khuy
+    Created on : Nov 1, 2022, 10:31:45 AM
+    Author     : thaiq
 --%>
-
 
 <%@page import="com.DAOs.CategoryDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -59,7 +58,7 @@
                             <div class="block-21 mb-4 d-flex">
                                 <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
                                 <div class="text">
-                                    <h3 class="heading"><a href="blogSingle.jsp">10 Tips For The Traveler</a></h3>
+                                    <h3 class="heading"><a href="blog-single.jsp">10 Tips For The Traveler</a></h3>
                                     <div class="meta">
                                         <div><span class="icon-calendar"></span>July 10, 2023</div>
                                         <div><span class="icon-person"></span>Lance Smith</div>
@@ -70,7 +69,7 @@
                             <div class="block-21 mb-4 d-flex">
                                 <a class="blog-img mr-4" style="background-image: url('imageBlog/blog1.jpg');"></a>
                                 <div class="text">
-                                    <h3 class="heading"><a href="blogSingle_1.jsp">The Magic of Coffee</a></h3>
+                                    <h3 class="heading"><a href="blog-single_1.jsp">The Magic of Coffee</a></h3>
                                     <div class="meta">
                                         <div><span class="icon-calendar"></span>Feb 28, 2023</div>
                                         <div><span class="icon-person"></span>Alex</div>
@@ -97,8 +96,8 @@
                             <div class="block-23 mb-3">
                                 <ul>
                                     <li><span class="icon icon-map-marker"></span><span class="text">08 Đại lộ Đông Tây, Quận Cái Răng, TP.CầnThơ</span></li>
-                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+84 96 868 68 68</span></a></li>
-                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">antoineteecafe@gmail.com</span></a></li>
+                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+84 8996 895 99 </span></a></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">khanhuy0915@gmail.com</span></a></li>
                                 </ul>
                             </div>
                         </div>

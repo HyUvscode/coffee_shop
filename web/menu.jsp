@@ -1,15 +1,14 @@
 <%-- 
     Document   : menu
-    Created on : Oct 24, 2023, 9:53:28 PM
-    Author     : khuy
+    Created on : Nov 1, 2022, 10:04:30 AM
+    Author     : thaiq
 --%>
 
-
-<%@page import="DAOs.ProductDAO"%>
-<%@page import="Models.products"%>
+<%@page import="com.DAOs.ProductDAO"%>
+<%@page import="com.Models.products"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="DAOs.CategoryDAO"%>
+<%@page import="com.DAOs.CategoryDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -54,7 +53,7 @@
 
                         <div class="col-md-7 col-sm-12 text-center ftco-animate">
                             <h1 class="mb-3 mt-5 bread">Our Menu</h1>
-                            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Menu</span></p>
+                            <p class="breadcrumbs"><span class="mr-2"><a href="index.jsp">Home</a></span> <span>Menu</span></p>
                         </div>
 
                     </div>

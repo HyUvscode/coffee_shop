@@ -1,7 +1,7 @@
 <%-- 
     Document   : about
-    Created on : Oct 24, 2023, 9:42:44 PM
-    Author     : khuy
+    Created on : Nov 1, 2022, 10:02:54 AM
+    Author     : thaiq
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -48,7 +48,7 @@
 
                         <div class="col-md-7 col-sm-12 text-center ftco-animate">
                             <h1 class="mb-3 mt-5 bread">About Us</h1>
-                            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
+                            <p class="breadcrumbs"><span class="mr-2"><a href="index.jsp">Home</a></span> <span>About</span></p>
                         </div>
 
                     </div>
