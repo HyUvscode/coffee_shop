@@ -65,14 +65,14 @@ public class AdminServlet extends HttpServlet {
             } else {
                   if (request.getParameter("q") != null) {
                         if (request.getParameter("q").equals("1")) {
-                              request.getRequestDispatcher("/admindashboard.jsp").forward(request, response);
+                              request.getRequestDispatcher("/adminDashBoard.jsp").forward(request, response);
                         } else if (request.getParameter("q").equals("2")) {
-                              request.getRequestDispatcher("/admindashboard_1.jsp").forward(request, response);
+                              request.getRequestDispatcher("/adminDashBoard_1.jsp").forward(request, response);
                         } else {
-                              request.getRequestDispatcher("/admindashboard_2.jsp").forward(request, response);
+                              request.getRequestDispatcher("/adminDashBoard_2.jsp").forward(request, response);
                         }
                   } else {
-                        request.getRequestDispatcher("/admindashboard.jsp").forward(request, response);
+                        request.getRequestDispatcher("/adminDashBoard.jsp").forward(request, response);
                   }
             }
       }

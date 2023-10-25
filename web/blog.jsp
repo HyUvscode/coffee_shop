@@ -61,7 +61,7 @@
                 <div class="row d-flex">
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single.jsp" class="block-20" style="background-image: url('images/image_1.jpg');">
+                            <a href="blogSingle.jsp" class="block-20" style="background-image: url('images/image_1.jpg');">
                             </a>
                             <div class="text py-4 d-block">
                                 <div class="meta">
@@ -69,14 +69,14 @@
                                     <div><a href="#">Lance Smith</a></div>
                                     <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 4</a></div>
                                 </div>
-                                <h3 class="heading mt-2"><a href="blog-single.jsp">10 Tips For The Traveler</a></h3>
+                                <h3 class="heading mt-2"><a href="blogSingle.jsp">10 Tips For The Traveler</a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single_1.jsp" class="block-20" style="background-image: url('imageBlog/blog1.jpg');">
+                            <a href="blogSingle_1.jsp" class="block-20" style="background-image: url('imageBlog/blog1.jpg');">
                             </a>
                             <div class="text py-4 d-block">
                                 <div class="meta">
@@ -84,14 +84,14 @@
                                     <div><a href="#">Alex</a></div>
                                     <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 2</a></div>
                                 </div>
-                                <h3 class="heading mt-2"><a href="blog-single_1.jsp">The Magic of Coffee</a></h3>
+                                <h3 class="heading mt-2"><a href="blogSingle_1.jsp">The Magic of Coffee</a></h3>
                                 <p>Coffee, the aromatic elixir that tantalizes our senses and awakens our spirits, holds a special place in the hearts of people around the world.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single_2.jsp" class="block-20" style="background-image: url('imageBlog/blog3.jpg');">
+                            <a href="blogSingle_2.jsp" class="block-20" style="background-image: url('imageBlog/blog3.jpg');">
                             </a>
                             <div class="text py-4 d-block">
                                 <div class="meta">
@@ -99,14 +99,14 @@
                                     <div><a href="#">Miguel</a></div>
                                     <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 6</a></div>
                                 </div>
-                                <h3 class="heading mt-2"><a href="blog-single_2.jsp">The History and Legends of Coffee</a></h3>
+                                <h3 class="heading mt-2"><a href="blogSingle_2.jsp">The History and Legends of Coffee</a></h3>
                                 <p>Coffee, with its rich aroma and invigorating properties, has a history shrouded in legends and tales.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single_3.jsp" class="block-20" style="background-image: url('imageBlog/blog5.jpg');">
+                            <a href="blogSingle_3.jsp" class="block-20" style="background-image: url('imageBlog/blog5.jpg');">
                             </a>
                             <div class="text py-4 d-block">
                                 <div class="meta">
@@ -114,14 +114,14 @@
                                     <div><a href="#">Julia</a></div>
                                     <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 7</a></div>
                                 </div>
-                                <h3 class="heading mt-2"><a href="blog-single_3.jsp">The Art and Science of Coffee Roasting</a></h3>
+                                <h3 class="heading mt-2"><a href="blogSingle_3.jsp">The Art and Science of Coffee Roasting</a></h3>
                                 <p>The process of coffee roasting is a delicate balance of artistry and science.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single_4.jsp" class="block-20" style="background-image: url('imageBlog/blog7.jpg');">
+                            <a href="blogSingle_4.jsp" class="block-20" style="background-image: url('imageBlog/blog7.jpg');">
                             </a>
                             <div class="text py-4 d-block">
                                 <div class="meta">
@@ -129,14 +129,14 @@
                                     <div><a href="#">Antonio</a></div>
                                     <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 8</a></div>
                                 </div>
-                                <h3 class="heading mt-2"><a href="blog-single_4.jsp">Exploring Coffee Brewing Methods</a></h3>
+                                <h3 class="heading mt-2"><a href="blogSingle_4.jsp">Exploring Coffee Brewing Methods</a></h3>
                                 <p>The process of brewing coffee is an art in itself, with various methods and techniques to suit different preferences.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="blog-entry align-self-stretch">
-                            <a href="blog-single_5.jsp" class="block-20" style="background-image: url('imageBlog/blog9.jpg');">
+                            <a href="blogSingle_5.jsp" class="block-20" style="background-image: url('imageBlog/blog9.jpg');">
                             </a>
                             <div class="text py-4 d-block">
                                 <div class="meta">
@@ -144,7 +144,7 @@
                                     <div><a href="#">Carlos</a></div>
                                     <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 5</a></div>
                                 </div>
-                                <h3 class="heading mt-2"><a href="blog-single_5.jsp">Sustainable Coffee</a></h3>
+                                <h3 class="heading mt-2"><a href="blogSingle_5.jsp">Sustainable Coffee</a></h3>
                                 <p>As the demand for coffee grows, the importance of sustainability in the coffee industry becomes paramount.</p>
                             </div>
                         </div>

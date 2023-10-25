@@ -60,7 +60,7 @@ public class StaffServlet extends HttpServlet {
             if (session.getAttribute("login") == null) {
                   response.sendRedirect(request.getContextPath() + "/login.jsp");
             } else {
-                  request.getRequestDispatcher("/staffdashboard.jsp").forward(request, response);
+                  request.getRequestDispatcher("/staffDashBoard.jsp").forward(request, response);
             }
       }
 

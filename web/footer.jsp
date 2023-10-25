@@ -59,7 +59,7 @@
                             <div class="block-21 mb-4 d-flex">
                                 <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
                                 <div class="text">
-                                    <h3 class="heading"><a href="blog-single.jsp">10 Tips For The Traveler</a></h3>
+                                    <h3 class="heading"><a href="blogSingle.jsp">10 Tips For The Traveler</a></h3>
                                     <div class="meta">
                                         <div><span class="icon-calendar"></span>July 10, 2023</div>
                                         <div><span class="icon-person"></span>Lance Smith</div>
@@ -70,7 +70,7 @@
                             <div class="block-21 mb-4 d-flex">
                                 <a class="blog-img mr-4" style="background-image: url('imageBlog/blog1.jpg');"></a>
                                 <div class="text">
-                                    <h3 class="heading"><a href="blog-single_1.jsp">The Magic of Coffee</a></h3>
+                                    <h3 class="heading"><a href="blogSingle_1.jsp">The Magic of Coffee</a></h3>
                                     <div class="meta">
                                         <div><span class="icon-calendar"></span>Feb 28, 2023</div>
                                         <div><span class="icon-person"></span>Alex</div>
