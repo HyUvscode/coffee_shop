@@ -4,8 +4,8 @@
     Author     : Dao Thien Hieu Loi - CE171675
 --%>
 
-<%@page import="com.Models.accounts"%>
-<%@page import="com.DAOs.AccountDAO"%>
+<%@page import="Models.accounts"%>
+<%@page import="DAOs.AccountDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

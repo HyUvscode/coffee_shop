@@ -4,8 +4,8 @@
     Author     : thaiq
 --%>
 
-<%@page import="com.Models.accounts"%>
-<%@page import="com.DAOs.AccountDAO"%>
+<%@page import="Models.accounts"%>
+<%@page import="DAOs.AccountDAO"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

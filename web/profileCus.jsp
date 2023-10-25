@@ -5,9 +5,9 @@
 --%>
 
 <%@page import="java.sql.ResultSet"%>
-<%@page import="com.DAOs.OrderDAO"%>
-<%@page import="com.Models.accounts"%>
-<%@page import="com.DAOs.AccountDAO"%>
+<%@page import="DAOs.OrderDAO"%>
+<%@page import="Models.accounts"%>
+<%@page import="DAOs.AccountDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

@@ -4,11 +4,11 @@
     Author     : Dao Thien Hieu Loi - CE171675
 --%>
 
-<%@page import="com.DAOs.ProductDAO"%>
-<%@page import="com.Models.products"%>
-<%@page import="com.Models.cart_items"%>
+<%@page import="DAOs.ProductDAO"%>
+<%@page import="Models.products"%>
+<%@page import="Models.cart_items"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.Models.cart"%>
+<%@page import="Models.cart"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

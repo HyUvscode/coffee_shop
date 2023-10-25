@@ -4,8 +4,8 @@
     Author     : thaiq
 --%>
 
-<%@page import="com.DAOs.CategoryDAO"%>
-<%@page import="com.DAOs.ProductDAO"%>
+<%@page import="DAOs.CategoryDAO"%>
+<%@page import="DAOs.ProductDAO"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

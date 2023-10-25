@@ -4,12 +4,12 @@
     Author     : thaiq
 --%>
 
-<%@page import="com.DAOs.CategoryDAO"%>
+<%@page import="DAOs.CategoryDAO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.Models.products"%>
 <%@page import="java.sql.Array"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="com.DAOs.ProductDAO"%>
+<%@page import="DAOs.ProductDAO"%>
 <%@ page import="com.google.gson.Gson" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -4,11 +4,11 @@
     Author     : thaiq
 --%>
 
-<%@page import="com.DAOs.ProductDAO"%>
-<%@page import="com.Models.products"%>
+<%@page import="DAOs.ProductDAO"%>
+<%@page import="Models.products"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="com.DAOs.CategoryDAO"%>
+<%@page import="DAOs.CategoryDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
