@@ -7,18 +7,40 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * This class provides methods to establish and close a connection to the database.
- * It uses the SQLServer JDBC driver to connect to the database.
+ * This class provides methods to establish and close a connection to the
+ * database. It uses the SQLServer JDBC driver to connect to the database.
  *
- * Note: Make sure to handle exceptions and close connections properly in a real-world application.
- *       This example demonstrates the basic connection setup.
- * 
+ * Note: Make sure to handle exceptions and close connections properly in a
+ * real-world application. This example demonstrates the basic connection setup.
+ *
  * @author khuy
  */
 public class DBConnections {
 
     // Static variable to store the database connection
     private static Connection conn = null;
+
+//    public static Connection getConnection() {
+//        try {
+//            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+//            try {
+//                conn = DriverManager.getConnection("jdbc:sqlserver://"
+//                        + "localhost:1433;"
+//                        + "databaseName=DBCoffeeShop;"
+//                        // Enter your SSMS login username
+//                        + "user=sa;"
+//                        // Enter your SSMS login password
+//                        + "password=111111;"
+//                        + "encrypt=true;"
+//                        + "trustServerCertificate= true;");
+//            } catch (SQLException ex) {
+//                Logger.getLogger(DBConnections.class.getName()).log(Level.SEVERE, null, ex);
+//            }
+//        } catch (ClassNotFoundException ex) {
+//            Logger.getLogger(DBConnections.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        return conn;
+//    }
 
     /**
      * Establishes a database connection if it is not already established.
@@ -50,7 +72,6 @@ public class DBConnections {
         // Return the established connection
         return conn;
     }
-
     /**
      * Closes the database connection if it is open.
      */
@@ -66,4 +87,5 @@ public class DBConnections {
             Logger.getLogger(DBConnections.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
 }
