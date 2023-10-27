@@ -8,17 +8,17 @@ package Models;
  *
  * @author khuy
  */
-public class cartItems {
+public class cart_items {
 
     private String cart_id;
     private int product_id;
     private int quantity;
     private double price;
 
-    public cartItems() {
+    public cart_items() {
     }
 
-    public cartItems(String cart_id, int product_id, int quantity, double price) {
+    public cart_items(String cart_id, int product_id, int quantity, double price) {
         this.cart_id = cart_id;
         this.product_id = product_id;
         this.quantity = quantity;

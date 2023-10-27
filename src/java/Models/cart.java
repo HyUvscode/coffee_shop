@@ -13,13 +13,13 @@ import java.util.ArrayList;
 public class cart {
     private String cart_id;
     private String username;
-    private ArrayList<cartItems> items;
+    private ArrayList<cart_items> items;
     private double total_price;
 
     public cart() {
     }
 
-    public cart(String cart_id, String username, ArrayList<cartItems> items, double total_price) {
+    public cart(String cart_id, String username, ArrayList<cart_items> items, double total_price) {
         this.cart_id = cart_id;
         this.username = username;
         this.items = items;
@@ -42,11 +42,11 @@ public class cart {
         this.username = username;
     }
 
-    public ArrayList<cartItems> getItems() {
+    public ArrayList<cart_items> getItems() {
         return items;
     }
 
-    public void setItems(ArrayList<cartItems> items) {
+    public void setItems(ArrayList<cart_items> items) {
         this.items = items;
     }
 

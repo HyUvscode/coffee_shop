@@ -6,7 +6,7 @@ package Controller;
 
 import DAOs.ProductDAO;
 import Models.cart;
-import Models.cartItems;
+import Models.cart_items;
 import Models.products;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -77,9 +77,9 @@ public class CartServlet extends HttpServlet {
                     }
                     if (session.getAttribute("cart") == null) {
                         cart c = new cart();
-                        ArrayList<cartItems> lp = new ArrayList<>();
+                        ArrayList<cart_items> lp = new ArrayList<>();
                         c.setItems(lp);
-                        cartItems ct = new cartItems();
+                        cart_items ct = new cart_items();
                         ct.setQuantity(quantity);
                         ct.setProduct_id(p.getProduct_id());
                         ct.setCard_id("" + 1);
@@ -89,10 +89,10 @@ public class CartServlet extends HttpServlet {
                         session.setAttribute("cart", c);
                     } else {
                         cart c = (cart) session.getAttribute("cart");
-                        ArrayList<cartItems> lp = new ArrayList<>();
+                        ArrayList<cart_items> lp = new ArrayList<>();
                         lp = c.getItems();
                         boolean flag = false;
-                        for (cartItems cp : lp) {
+                        for (cart_items cp : lp) {
                             if (cp.getProduct_id() == p.getProduct_id()) {
                                 cp.setQuantity(cp.getQuantity() + 1);
                                 System.out.println(cp.getQuantity());
@@ -100,7 +100,7 @@ public class CartServlet extends HttpServlet {
                             }
                         }
                         if (!flag) {
-                            cartItems ct = new cartItems();
+                            cart_items ct = new cart_items();
                             ct.setQuantity(quantity);
                             ct.setProduct_id(p.getProduct_id());
                             ct.setCard_id("" + 1);
