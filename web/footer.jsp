@@ -95,7 +95,7 @@
                             <h2 class="ftco-heading-2">Have a Questions?</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon icon-map-marker"></span><span class="text">08 Đại lộ Đông Tây, Quận Cái Răng, TP.CầnThơ</span></li>
+                                    <li><span class="icon icon-map-marker"></span><span class="text">600 Nguyen Van Cu extension, An Binh, Ninh Kieu, Can Tho 900000, Vietnam</span></li>
                                     <li><a href="#"><span class="icon icon-phone"></span><span class="text">+84 8996 895 99 </span></a></li>
                                     <li><a href="#"><span class="icon icon-envelope"></span><span class="text">khanhuy0915@gmail.com</span></a></li>
                                 </ul>

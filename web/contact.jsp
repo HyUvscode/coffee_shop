@@ -65,16 +65,16 @@
                                 <h2 class="h4">Contact Information</h2>
                             </div>
                             <div class="col-md-12 mb-3">
-                                <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                <p><span>Address:</span>600 Nguyen Van Cu extension, An Binh, Ninh Kieu, Can Tho 900000, Vietnam</p>
                             </div>
                             <div class="col-md-12 mb-3">
-                                <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                                <p><span>Phone:</span> <a href="tel://1234567920">+84 8996 895 99</a></p>
                             </div>
                             <div class="col-md-12 mb-3">
-                                <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                <p><span>Email:</span> <a href="mailto:khanhuy0915@gmail.com">khanhuy0915@gmail.com</a></p>
                             </div>
                             <div class="col-md-12 mb-3">
-                                <p><span>Website:</span> <a href="#">yoursite.com</a></p>
+                                <p><span>Website:</span> <a href="https://www.linkedin.com/in/khuy/">Linkedin</a></p>
                             </div>
                         </div>
                     </div>
