@@ -67,7 +67,7 @@
                             </div>
                         </li>
                         <li class="nav-item active"><a href="contact.jsp" class="nav-link">Contact</a></li>
-                        <li class="nav-item cart"><a href="/login" class="nav-link"><div class="icons">
+                        <li class="nav-item cart"><a href="login.jsp" class="nav-link"><div class="icons">
                                     <div id="menu-btn" class="fas fa-bars"></div>
                                     <div id="login-btn" class="fas fa-user"></div>
                                 </div></a>
