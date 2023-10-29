@@ -69,8 +69,8 @@ public class LoginServlet extends HttpServlet {
 
                   request.getRequestDispatcher("/login.jsp").forward(request, response);
             } else {
-                  if (path.endsWith("/login/Create")) {
-                        request.getRequestDispatcher("/insertStaff.jsp").forward(request, response);
+                  if (path.endsWith("/Create")) {
+                        request.getRequestDispatcher("/register.jsp").forward(request, response);
                   }else {
                         request.getRequestDispatcher("/profileCus.jsp").forward(request, response);
                   }
@@ -129,6 +129,7 @@ public class LoginServlet extends HttpServlet {
                         } else if (acc.getRole_id().equals("Ad")) {
                               session.setAttribute("login", "admin");
                               response.sendRedirect("/role/Ad?admin=" + String.valueOf(acc.getAccount_id()));
+                              System.out.println("test accout_id: " + acc.getUsername());
                         } else if (acc.getRole_id().equals("Cus")) {
                               session.setAttribute("login", "customer");
                               session.setAttribute("Cus_id", acc.getAccount_id()+"");

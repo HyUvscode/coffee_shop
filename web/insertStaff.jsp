@@ -73,7 +73,7 @@
                                     <div class="d-flex justify-content-between align-items-center mb-3">
                                         <h4 class="text-right">Sign Up Form</h4>
                                     </div>
-                                    <input type="hidden" name="admin_id" id="admin_id" value="<%=acc.getAccount_id()%>" />
+                                    <!--<input type="hidden" name="admin_id" id="admin_id" value="" />-->
                                     <div class="row mt-2">
                                         <div class="col-md-7"><label class="labels">Full name</label><input id="fullname" name="fullname" type="text" class="form-control" value=""></div>
                                         <div class="col-md-5"><label class="labels">Age</label><input id="age" name="age" type="number" class="form-control" value="" min="15" max="50"></div>
