@@ -123,7 +123,7 @@
                             <span class="subheading">Welcome</span>
                             <h1 class="mb-4">Creamy Hot and Ready to Serve</h1>
                             <p class="mb-4 mb-md-5">Indulge in the smooth, rich flavors of our coffee, prepared with care for your enjoyment.</p>
-                            <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="menu.jsp" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+                            <p><a href="shop.jsp" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="menu.jsp" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
                         </div>
 
                     </div>
@@ -508,8 +508,8 @@
                             </blockquote>
                             <div class="author d-flex mt-4">
                                 <div class="image mr-3 align-self-center">
-                                    <img src="images/person_1.jpg" alt="">
-                                </div>
+                                    <img src="images/person_3.jpg" alt="">
+                                </div>  
                                 <div class="name align-self-center">Louise Kelly <span class="position">Illustrator Designer</span></div>
                             </div>
                         </div>

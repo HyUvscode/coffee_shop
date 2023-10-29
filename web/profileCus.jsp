@@ -76,7 +76,7 @@
                     AccountDAO aD = new AccountDAO();
                     acc = aD.getAccount((String) session.getAttribute("Cus_id"));
               }
-
+        
         %>
         <section class="py-5 my-5">
             <div class="container">
@@ -87,7 +87,7 @@
                             <div class="img-circle text-center mb-3">
                                 <img src="images/avatar.jpg" alt="Image" class="shadow">
                             </div>
-                            <h4 class="text-center"><%=acc.getFullname()%></h4>
+                                
                         </div>
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="account-tab" data-toggle="pill" href="#account" role="tab" aria-controls="account" aria-selected="true">
@@ -238,64 +238,66 @@
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
     <script>
-            var citySelect = document.getElementById("city");
+                                var citySelect = document.getElementById("city");
 
-            function navigateToSt() {
-                var st = "index.jsp";
-                window.location.href = st;
-            };
-            
-            function navigateToLogout() {
-                var st1 = "/logout";
-                window.location.href = st1;
-            };
+                                function navigateToSt() {
+                                    var st = "index.jsp";
+                                    window.location.href = st;
+                                }
+                                ;
 
-            // Lấy danh sách các tỉnh từ dữ liệu JSON
-            var Parameter = {
-                url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json",
-                method: "GET",
-                responseType: "application/json",
-            };
+                                function navigateToLogout() {
+                                    var st1 = "/logout";
+                                    window.location.href = st1;
+                                }
+                                ;
 
-            var promise = axios(Parameter);
-            promise.then(function (result) {
-                renderCity(result.data);
-            });
+                                // Lấy danh sách các tỉnh từ dữ liệu JSON
+                                var Parameter = {
+                                    url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json",
+                                    method: "GET",
+                                    responseType: "application/json"
+                                };
 
-            function renderCity(data) {
-                for (const x of data) {
-                    citySelect.options[citySelect.options.length] = new Option(x.Name, x.Id);
-                }
+                                var promise = axios(Parameter);
+                                promise.then(function (result) {
+                                    renderCity(result.data);
+                                });
 
-                var initialCity = "<%=acc.getAddress()%>"; // Giá trị tỉnh ban đầu
-                var CitySelected = "";
-                // Thiết lập giá trị ban đầu cho phần tử select
-                for (var i = 0; i < citySelect.options.length; i++) {
-                    //console.log(citySelect.options[i].text);
-                    if (citySelect.options[i].text.includes(initialCity)) {
-                        citySelect.selectedIndex = i;
-                        CitySelected = citySelect.options[i].text;
-                        document.getElementById('myCity').value = CitySelected;
-                        //                        sessionStorage.setItem("CitySelected", CitySelected);
-                        break;
-                    }
-                }
-                citySelect.onchange = function () {
-                    // Code xử lý khi lựa chọn tỉnh thay đổi
-                    var selectedCity1 = citySelect.options[citySelect.selectedIndex].text;
-                    CitySelected = citySelect.options[citySelect.selectedIndex].text;
-                    document.getElementById('myCity').value = CitySelected;
-                    //                    sessionStorage.setItem("CitySelected", CitySelected);
-                    //console.log(CitySelected);
-                    console.log(CitySelected);
-                };
+                                function renderCity(data) {
+                                    for (const x of data) {
+                                        citySelect.options[citySelect.options.length] = new Option(x.Name, x.Id);
+                                    }
+
+                                    var initialCity = "<%=acc.getAddress()%>"; // Giá trị tỉnh ban đầu
+                                    var CitySelected = "";
+                                    // Thiết lập giá trị ban đầu cho phần tử select
+                                    for (var i = 0; i < citySelect.options.length; i++) {
+                                        //console.log(citySelect.options[i].text);
+                                        if (citySelect.options[i].text.includes(initialCity)) {
+                                            citySelect.selectedIndex = i;
+                                            CitySelected = citySelect.options[i].text;
+                                            document.getElementById('myCity').value = CitySelected;
+                                            //                        sessionStorage.setItem("CitySelected", CitySelected);
+                                            break;
+                                        }
+                                    }
+                                    citySelect.onchange = function () {
+                                        // Code xử lý khi lựa chọn tỉnh thay đổi
+                                        var selectedCity1 = citySelect.options[citySelect.selectedIndex].text;
+                                        CitySelected = citySelect.options[citySelect.selectedIndex].text;
+                                        document.getElementById('myCity').value = CitySelected;
+                                        //                    sessionStorage.setItem("CitySelected", CitySelected);
+                                        //console.log(CitySelected);
+                                        console.log(CitySelected);
+                                    };
 
 
-                //                function saveCity() {
-                //                    sessionStorage.setItem("CitySelected", CitySelected);
-                //                    alert("Xin chào, đây là câu lệnh JavaScript!");
-                //                }
-            }
+                                    //                function saveCity() {
+                                    //                    sessionStorage.setItem("CitySelected", CitySelected);
+                                    //                    alert("Xin chào, đây là câu lệnh JavaScript!");
+                                    //                }
+                                }
     </script>
 </body>
 </html>

@@ -62,7 +62,7 @@ public class InsertServlet extends HttpServlet {
       protected void doGet(HttpServletRequest request, HttpServletResponse response)
               throws ServletException, IOException {
             String path = request.getRequestURI();
-            //System.out.println(path);
+//            System.out.println(path);
             if (path.endsWith("/insert/Ad")) {
                   request.getRequestDispatcher("/insertStaff.jsp").forward(request, response);
 //            } else if (path.endsWith("/insert/Cus")) {

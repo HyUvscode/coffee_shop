@@ -70,7 +70,7 @@ public class LoginServlet extends HttpServlet {
                   request.getRequestDispatcher("/login.jsp").forward(request, response);
             } else {
                   if (path.endsWith("/login/Create")) {
-                        request.getRequestDispatcher("/register.jsp").forward(request, response);
+                        request.getRequestDispatcher("/insertStaff.jsp").forward(request, response);
                   }else {
                         request.getRequestDispatcher("/profileCus.jsp").forward(request, response);
                   }
@@ -94,7 +94,13 @@ public class LoginServlet extends HttpServlet {
                   boolean rememberMe = "on".equals(request.getParameter("remember"));
 
                   AccountDAO aD = new AccountDAO();
-                  accounts acc = aD.checkLogin(username, getMd5(password));
+
+                  //get password with str covert to md5
+//                  accounts acc = aD.checkLogin(username, getMd5(password));
+
+                  //get password don't convert
+                    accounts acc = aD.checkLogin(username, password);
+                    
                   if (acc != null) {
                         request.getSession().setAttribute("", username);
 

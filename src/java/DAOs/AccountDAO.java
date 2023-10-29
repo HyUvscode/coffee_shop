@@ -37,7 +37,8 @@ public class AccountDAO {
             PreparedStatement st = conn.prepareStatement(query);
             st.setString(1, username);
             st.setString(2, password);
-            System.out.println(username + password);
+//            System.out.println("khuy da o day: \n");
+            System.out.println("username: " + username + "\npassword: " + password);
             ResultSet rs = st.executeQuery();
             if (rs.next()) {
                 acc = new accounts(rs.getString("username"), rs.getString("password"),

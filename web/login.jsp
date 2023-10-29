@@ -92,7 +92,7 @@
                             </a>
                         </div>
                         <div class="text-center p-t-136">
-                            <a class="txt2" href="/login/Create" style="color: white;">
+                            <a class="txt2" href="/login/Create/insertStaff" style="color: white;">
                                 Create your Account
                                 <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
                             </a>
@@ -119,10 +119,10 @@
         <script >
             $('.js-tilt').tilt({
                 scale: 1.1
-            })
+            }
         </script>
         <!--===============================================================================================-->
-        <script src="js/main_1.js.js"></script>
+        <script src="js/main_1.js"></script>
 
     </body>
 </html>
