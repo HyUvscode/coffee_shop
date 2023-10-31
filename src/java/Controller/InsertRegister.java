@@ -82,9 +82,8 @@ public class InsertRegister extends HttpServlet {
         String myCity = request.getParameter("myCity");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        String admin_id = request.getParameter("admin_id");
 
-        accounts acc = new accounts(username, getMd5(password), 1, fullname, age, email, myCity, phone, "St");
+        accounts acc = new accounts(username, getMd5(password), 2, fullname, age, email, myCity, phone, "Cus");
         AccountDAO aD = new AccountDAO();
         int count = aD.insertAccount(acc);
 
@@ -94,7 +93,6 @@ public class InsertRegister extends HttpServlet {
 
         HttpSession session = request.getSession();
         session.setAttribute("login", "admin");
-        response.sendRedirect("/role/Ad?admin=" + String.valueOf(admin_id));
 
     }
 
