@@ -96,10 +96,10 @@ public class LoginServlet extends HttpServlet {
                   AccountDAO aD = new AccountDAO();
 
                   //get password with str covert to md5
-//                  accounts acc = aD.checkLogin(username, getMd5(password));
+                  accounts acc = aD.checkLogin(username, getMd5(password));
 
                   //get password don't convert
-                    accounts acc = aD.checkLogin(username, password);
+//                    accounts acc = aD.checkLogin(username, password);
                     
                   if (acc != null) {
                         request.getSession().setAttribute("", username);

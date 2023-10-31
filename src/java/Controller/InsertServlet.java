@@ -65,8 +65,8 @@ public class InsertServlet extends HttpServlet {
 //            System.out.println(path);
             if (path.endsWith("/insert/Ad")) {
                   request.getRequestDispatcher("/insertStaff.jsp").forward(request, response);
-//            } else if (path.endsWith("/insert/Cus")) {
-//                  request.getRequestDispatcher("/admin").forward(request, response);
+            } else if (path.endsWith("/insert/Cus")) {
+                  request.getRequestDispatcher("/admin").forward(request, response);
             }
       }
 
