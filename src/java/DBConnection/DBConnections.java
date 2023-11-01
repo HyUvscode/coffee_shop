@@ -55,7 +55,7 @@ public class DBConnections {
                 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
                 // Database connection URL with credentials and other parameters
-                String url = "jdbc:sqlserver://khuy:1433;databaseName=DBCoffeeShop;user=sa;password=111111;encrypt=true;trustServerCertificate=true;";
+                String url = "jdbc:sqlserver://localhost:1433;databaseName=DBCoffeeShop;user=sa;password=111111;encrypt=true;trustServerCertificate=true;";
 
                 try {
                     // Establish the database connection
