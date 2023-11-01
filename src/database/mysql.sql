@@ -207,34 +207,34 @@ INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],
 -------------------
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-11-01' AS Date),N'huyhoang',N'quockhanh')
+	VALUES(CAST(N'2023-11-01' AS Date),N'huy',N'quocanh')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-11-01' AS Date),N'dangkhoi',N'quockhanh')
+	VALUES(CAST(N'2022-11-01' AS Date),N'huy',N'quocanh')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-05-08' AS Date),N'maitram',N'thuthao')
+	VALUES(CAST(N'2022-05-08' AS Date),N'QT',N'chicuong')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-05-08' AS Date),N'huyhoang',N'thuthao')
+	VALUES(CAST(N'2022-05-08' AS Date),N'QT',N'tuanzy')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-12-20' AS Date),N'minhthu',N'thuhoan')
+	VALUES(CAST(N'2022-12-20' AS Date),N'huy',N'chicuong')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-01-05' AS Date),N'tanphat',N'thienthanh')
+	VALUES(CAST(N'2022-01-05' AS Date),N'huy',N'tuanzy')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-01-05' AS Date),N'hadong',N'thienthanh')
+	VALUES(CAST(N'2022-01-05' AS Date),N'QT',N'quocanh')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-01-05' AS Date),N'minhthu',N'thienthanh')
+	VALUES(CAST(N'2022-01-05' AS Date),N'QT',N'tuanzy')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-08-09' AS Date),N'maitram',N'trungthanh')
+	VALUES(CAST(N'2022-08-09' AS Date),N'huy',N'chicuong')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
-	VALUES(CAST(N'2022-08-09' AS Date),N'dangkhoi',N'trungthanh')
+	VALUES(CAST(N'2022-08-09' AS Date),N'QT',N'chicuong')
 
 INSERT INTO [dbo].[orders]([Date],[staff_id],[customer_id])
 	VALUES(CAST(N'2022-07-20' AS Date),N'minhthu',N'trungthanh')
