@@ -75,65 +75,29 @@ INSERT INTO roles([role_id], [role_name]) VALUES (N'Cus','Customer')
 
 ----------ADMIN 
 INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-	VALUES (N'daoloi',N'202cb962ac59075b964b07152d234b70',N'Đào Thiên Hiểu Lợi',20,N'hieuloi@gmail.com', N'Đồng Tháp','0921532434',N'Ad')
+	VALUES (N'khuy',N'b331621d980680d0acd7625a741ce944',N'Hứa Khánh Huy',20,N'khanhuy0915@gmail.com', N'Sóc Trăng','0899689599',N'Ad')
 
 INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-VALUES (N'vietthang',N'202cb962ac59075b964b07152d234b70',N'Nguyễn Việt Thắng',20,N'vietthang@gmail.com', N'Đồng Tháp','0921532434',N'Ad')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-	VALUES (N'thanhphuc',N'6dd544e6b7ab3369a62d4c994362a3cc', N'Nguyễn Thanh Phúc',21, N'thanhphuc@gmail.com', N'Cần Thơ', '0985437791', N'Ad')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-	VALUES (N'minhnhat',N'80620ae0c3a5354fc0030c0d3e25a599',N'Hồ Minh Nhật',20,N'minhnhat@gmail.com', N'Sóc Trăng','0965492159',N'Ad')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-	VALUES (N'minhnhut',N'ec6d212e36d247eac47f3e954e3d3f09',N'Võ Minh Nhựt',20,N'minhnhut@gmail.com', N'Vĩnh Long','0921748093',N'Ad')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-	VALUES (N'huynhnhu',N'2a93a82442ebe44fce901cffe6c4c6b1',N'Nguyễn Huỳnh Như',20,N'huynhnhu@gmail.com', N'Vĩnh Long','0907632671',N'Ad')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-	VALUES (N'luquy',N'8a54cf994f858bda7fc9f1560216089b',N'Lữ Thanh Quy',20,N'luquy@gmail.com', N'Cần Thơ','0921541807',N'Ad')
-
+	VALUES (N'admin',N'a3175a452c7a8fea80c62a198a40f6c9', N'Admin', 99, N'khanhuy0915@gmail.com',N'Cần Thơ','0123456789',N'Ad')
 
 ----------Staff 
 
 INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-VALUES (N'bichtuyen',N'4af3f0c2cd42a25d06eb34456f571ed2',N'Vũ Thị Bích Tuyền',25,N'bichtuyen@gmail.com', N'Kiên Giang','0913000308',N'St')
+VALUES (N'huy',N'e10adc3949ba59abbe56e057f20f883e',N'Khánh Huy Hứa',20,N'khuy@gmail.com', N'Cần Thơ','0899689599',N'St')
 
 INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-VALUES (N'dangkhoi',N'1de3f1191cf4d8b9f05888accefc88b2',N'Nguyễn Đăng Khôi',19,N'dangkhoi@gmail.com', N'Vĩnh Long','0321678410',N'St')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-VALUES (N'hadong',N'6201161aeabf95940ee7330bbe64f519',N'Võ Hà Đông',20,N'hadong@gmail.com', N'Cà Mau','0976395129',N'St')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-VALUES (N'maitram',N'4022be356ea2fce7806392244a7512c2',N'Tống Thị Mai Trâm',23,N'maitram@gmail.com', N'Cần Thơ','0894587624',N'St')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-VALUES (N'minhthu',N'c168a5ae38e6c3d1aa737674825a9de6',N'Lê Thị  Minh Thư',21,N'minhthu@gmail.com', N'An Giang','0892274130',N'St')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-VALUES (N'tanphat',N'76b100e3f4587bb5471dd24cceb10820',N'Huỳnh Tấn Phát',25,N'tanphat@gmail.com', N'Hậu Giang','0893333333',N'St')
+VALUES (N'QT',N'e10adc3949ba59abbe56e057f20f883e',N'Quách Ngọc Quỳnh Trang',21,N'qyhtrr_@gmail.com', N'Rạch Giá','0378410755',N'St')
 
 ----------Custumer 
 
 INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-         VALUES (N'quockhanh', N'629e8d70e993322601ea565b7cfb4d0c', N'Nguyễn Quốc Khánh',17, N'quockhanh@gmail.com', N'Cần Thơ', '0894444444', N'Cus')
+         VALUES (N'chicuong', N'e10adc3949ba59abbe56e057f20f883e', N'Bùi Chí Cường',20, N'chicuong@gmail.com', N'Cần Thơ', '0894444444', N'Cus')
 
 INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-        VALUES (N'thuthao',N'bf32d197f35684b9c075b9eb9823ee0c',N'Nguyễn Thu Thảo',28,N'thuthao@gmail.com', N'Cần Thơ','0895555555',N'Cus')
+        VALUES (N'tuanzy',N'e10adc3949ba59abbe56e057f20f883e',N'Tuấn Zỹ',20,N'tuanzy@gmail.com', N'Cần Thơ','0895555555',N'Cus')
 
 INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-        VALUES (N'thuhoan',N'8ced2c54c783417d578ae76416253919',N'Nguyễn Thu Hoàn',22,N'thuhoan@gmail.com', N'Cần Thơ','0896666666',N'Cus')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-        VALUES (N'thienthanh',N'893c3fd491f30b629fde7abe2ba1b516',N'Nguyễn Thiên Thanh',20,N'thienthanh@gmail.com', N'Cần Thơ','0897777777',N'Cus')
-
-INSERT INTO [dbo].[accounts] ([username], [password],[fullname], [age], [email], [address], [phone], [role_id]) 
-        VALUES (N'trungthanh',N'7bfe8ed9fc8127bfc322b6b24fd13e4d',N'Nguyễn Trần Trung Thành',21,N'trungthanh@gmail.com', N'Cần Thơ','0939289910',N'Cus')
-
-
+        VALUES (N'quocanh',N'e10adc3949ba59abbe56e057f20f883e',N'Nguyễn Quốc Anh',21,N'quocanh@gmail.com', N'Cần Thơ','0896666666',N'Cus')
 
 -------------------
 INSERT INTO [dbo].[categories]([category_id],[category_name]) 
