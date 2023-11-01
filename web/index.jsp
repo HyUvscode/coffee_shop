@@ -90,7 +90,7 @@
                             <span class="subheading">Welcome</span>
                             <h1 class="mb-4">The Best Coffee Testing Experience</h1>
                             <p class="mb-4 mb-md-5">Savor the richness and complexity of our meticulously crafted coffee.</p>
-                            <p><a href="#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="menu.jsp" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+                            <p><a href="order.jsp" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="menu.jsp" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
                         </div>
 
                     </div>
@@ -263,7 +263,7 @@
                             <span class="subheading">Discover</span>
                             <h2 class="mb-4">Our Menu</h2>
                             <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">View Full Menu</a></p>
+                            <p><a href="menu.jsp" class="btn btn-primary btn-outline-primary px-4 py-3">View Full Menu</a></p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -379,7 +379,7 @@
                                 <h3><a href="#"><%=list.get(1).getProduct_name()%></a></h3>
                                 <p><%=list.get(1).getProduct_description()%></p>
                                 <p class="price"><span><%=list.get(1).getPrice()%>₫</span></p>
-                                <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                                <p><a href="cart/add?product_id=<%=list.get(1).getProduct_id() %>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -390,7 +390,7 @@
                                 <h3><a href="#"><%=list.get(2).getProduct_name()%></a></h3>
                                 <p><%=list.get(2).getProduct_description()%></p>
                                 <p class="price"><span><%=list.get(2).getPrice()%>₫</span></p>
-                                <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                                <p><a href="cart/add?product_id=<%=list.get(2).getProduct_id()%>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
@@ -401,7 +401,7 @@
                                 <h3><a href="#"><%=list.get(3).getProduct_name()%></a></h3>
                                 <p><%=list.get(3).getProduct_description()%></p>
                                 <p class="price"><span><%=list.get(3).getPrice()%>₫</span></p>
-                                <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                                <p><a href="cart/add?product_id=<%=list.get(3).getProduct_id()%>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
