@@ -33,7 +33,7 @@
 
         <link rel="stylesheet" href="css/aos.css">
 
-        <link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stCylesheet" href="css/ionicons.min.css">
 
         <link rel="stylesheet" href="css/bootstrap-datepicker.css">
         <link rel="stylesheet" href="css/jquery.timepicker.css">
@@ -378,7 +378,6 @@
                         }
                     %>
                 </div>
-
             </div>
         </section>
 
