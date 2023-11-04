@@ -353,59 +353,32 @@
                 </div>
                 <div class="row">
                     <%
-                          ProductDAO pD = new ProductDAO();
-                          ResultSet rs = pD.getTopCoffee(4, "Cf");
-                          ArrayList<products> list = new ArrayList<>();
-                          while (rs.next()) {
-                                list.add(new products(rs.getInt("product_id"), rs.getString("product_name"),
-                                        rs.getString("product_img"), rs.getDouble("price"), rs.getString("category_id"), rs.getString("product_description")));
-                          }
+                        ProductDAO pD = new ProductDAO();
+                        ResultSet rs = pD.getTopCoffee(4, "Cf");
+                        ArrayList<products> list = new ArrayList<>();
+                        while (rs.next()) {
+                            list.add(new products(rs.getInt("product_id"), rs.getString("product_name"),
+                                    rs.getString("product_img"), rs.getDouble("price"), rs.getString("category_id"), rs.getString("product_description")));
+                        }
+        
+                        for (products product : list) {
                     %>
                     <div class="col-md-3">
                         <div class="menu-entry">
-                            <a href="#" class="img" style="background-image: url(imageDist/<%=list.get(0).getProduct_img()%>);"></a>
+                            <a href="#" class="img" style="background-image: url(imageDist/<%=product.getProduct_img()%>);"></a>
                             <div class="text text-center pt-4">
-                                <h3><a href="#"><%=list.get(0).getProduct_name()%></a></h3>
-                                <p><%=list.get(0).getProduct_description()%></p>
-                                <p class="price"><span><%=list.get(0).getPrice()%>₫</span></p>
-                                <p><a href="cart/add?product_id=<%=list.get(0).getProduct_id() %>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                                <h3><a href="#"><%=product.getProduct_name()%></a></h3>
+                                <p><%=product.getProduct_description()%></p>
+                                <p class="price"><span><%=product.getPrice()%>₫</span></p>
+                                <p><a href="cart/add?product_id=<%=product.getProduct_id() %>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="menu-entry">
-                            <a href="#" class="img" style="background-image: url(imageDist/<%=list.get(1).getProduct_img()%>);"></a>
-                            <div class="text text-center pt-4">
-                                <h3><a href="#"><%=list.get(1).getProduct_name()%></a></h3>
-                                <p><%=list.get(1).getProduct_description()%></p>
-                                <p class="price"><span><%=list.get(1).getPrice()%>₫</span></p>
-                                <p><a href="cart/add?product_id=<%=list.get(1).getProduct_id() %>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="menu-entry">
-                            <a href="#" class="img" style="background-image: url(imageDist/<%=list.get(2).getProduct_img()%>);"></a>
-                            <div class="text text-center pt-4">
-                                <h3><a href="#"><%=list.get(2).getProduct_name()%></a></h3>
-                                <p><%=list.get(2).getProduct_description()%></p>
-                                <p class="price"><span><%=list.get(2).getPrice()%>₫</span></p>
-                                <p><a href="cart/add?product_id=<%=list.get(2).getProduct_id()%>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="menu-entry">
-                            <a href="#" class="img" style="background-image: url(imageDist/<%=list.get(3).getProduct_img()%>);"></a>
-                            <div class="text text-center pt-4">
-                                <h3><a href="#"><%=list.get(3).getProduct_name()%></a></h3>
-                                <p><%=list.get(3).getProduct_description()%></p>
-                                <p class="price"><span><%=list.get(3).getPrice()%>₫</span></p>
-                                <p><a href="cart/add?product_id=<%=list.get(3).getProduct_id()%>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                            </div>
-                        </div>
-                    </div>
+                    <%
+                        }
+                    %>
                 </div>
+
             </div>
         </section>
 
