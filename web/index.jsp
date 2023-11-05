@@ -370,7 +370,7 @@
                                 <h3><a href="#"><%=product.getProduct_name()%></a></h3>
                                 <p><%=product.getProduct_description()%></p>
                                 <p class="price"><span><%=product.getPrice()%>₫</span></p>
-                                <p><a href="cart/add?product_id=<%=product.getProduct_id() %>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                                <p><a href="cart/add?product_id=<%=product.getProduct_id()%>" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
                             </div>
                         </div>
                     </div>

@@ -76,10 +76,18 @@ for (var i = 1; i <= numberOfItems; i++) {
         priceSpan.textContent = `` + product.price;
         price.appendChild(priceSpan);
 
+        // Lấy product_id từ đối tượng product
+        var productId = product.product_id;
+
+        // Tạo URL động với product_id
+        var addToCartUrl = `cart/add?product_id=${productId}`;
+
+
+
         // Tạo phần tử p (nút "Add to cart")
         const addToCart = document.createElement('p');
         const addToCartLink = document.createElement('a');
-        addToCartLink.href = '#';
+        addToCartLink.href = addToCartUrl;
         addToCartLink.className = 'btn btn-primary btn-outline-primary';
         addToCartLink.textContent = 'Add to cart';
         addToCart.appendChild(addToCartLink);

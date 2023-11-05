@@ -131,6 +131,7 @@
             </div>
         </section>
 
+        <!--lấy list item cho phía trên--> 
         <section class="ftco-section" style="padding-bottom: 0">
             <div class="container">
                 <%
@@ -154,6 +155,8 @@
             </div>
         </section>
 
+
+        <!--lấy list item theo dạng format bên shop.jsp-->
         <section class="ftco-menu mb-5 pb-5">
             <div class="container">
                 <div class="row justify-content-center mb-5">
@@ -165,30 +168,29 @@
                 </div>
                 <div class="row d-md-flex">
                     <%
-                          rsCate = cD.getAllCategories();
-                          ArrayList<ArrayList<products>> list2ss = new ArrayList<>();
-                          while (rsCate.next()) {
-                                ArrayList<products> listemp = new ArrayList<>();
-                                ResultSet temp = pD.getTopCoffee(cD.getNumberOfProductByCategory(rsCate.getString("category_id")), rsCate.getString("category_id"));
-                                while (temp.next()) {
-                                      listemp.add(new products(temp.getInt("product_id"), temp.getString("product_name"),
-                                              temp.getString("product_img"), temp.getDouble("price"), temp.getString("category_id"), temp.getString("product_description")));
-                                }
-                                list2ss.add(listemp);
-                          }
+                            rsCate = cD.getAllCategories();
+                            ArrayList<ArrayList<products>> list2ss = new ArrayList<>();
+                            while (rsCate.next()) {
+                                  ArrayList<products> listemp = new ArrayList<>();
+                                  ResultSet temp = pD.getTopCoffee(cD.getNumberOfProductByCategory(rsCate.getString("category_id")), rsCate.getString("category_id"));
+                                  while (temp.next()) {
+                                        listemp.add(new products(temp.getInt("product_id"), temp.getString("product_name"),
+                                                temp.getString("product_img"), temp.getDouble("price"), temp.getString("category_id"), temp.getString("product_description")));
+                                  }
+                                  list2ss.add(listemp);
+                            }
                     %>
                     <div class="col-lg-12 ftco-animate p-md-5">
                         <div class="row">
                             <div class="col-md-12 nav-link-wrap mb-5">
-                                <div class="nav ftco-animate nav-pills justify-content-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-
-                                </div>
+                                <div class="col-md-12 nav-link-wrap mb-5">
+                                    <div class="nav ftco-animate nav-pills justify-content-center fadeInUp ftco-animated" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                               </div>
                             </div>
                             <div class="col-md-12 d-flex align-items-center">
 
                                 <div class="tab-content ftco-animate" id="v-pills-tabContent">
-
-
+                                    
                                 </div>
                             </div>
                         </div>
