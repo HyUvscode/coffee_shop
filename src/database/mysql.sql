@@ -110,99 +110,99 @@ INSERT INTO [dbo].[categories]([category_id],[category_name])
 
 ------------------- Cafe
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Bạc Sỉu',N'/imageDist/Cf1.jpg',29000,N'Cf',N'Một món đồ uống truyền thống của Hà Nội, kết hợp giữa cà phê đậm đà và sữa đặc, tạo nên hương vị đặc biệt và thú vị.')
+	VALUES(N'Bạc Sỉu',N'/Cf1.jpg',29000,N'Cf',N'Một món đồ uống truyền thống của Hà Nội, kết hợp giữa cà phê đậm đà và sữa đặc, tạo nên hương vị đặc biệt và thú vị.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Cà Phê Đen Đá',N'/imageDist/Cf2.jpg',29000,N'Cf',N'Hương thơm đậm đà, cảm giác sảng khoái của cà phê nguyên chất trên đá, giúp bạn tỉnh táo và hứng khởi trong ngày mới.')
+	VALUES(N'Cà Phê Đen Đá',N'/Cf2.jpg',29000,N'Cf',N'Hương thơm đậm đà, cảm giác sảng khoái của cà phê nguyên chất trên đá, giúp bạn tỉnh táo và hứng khởi trong ngày mới.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Cà Phê Muối',N'/imageDist/Cf3.jpg',49000,N'Cf',N'Sự kết hợp độc đáo giữa vị đắng của cà phê và một chút muối nhẹ nhàng, tạo nên một trải nghiệm độc đáo và thú vị cho vị giác.')
+	VALUES(N'Cà Phê Muối',N'/Cf3.jpg',49000,N'Cf',N'Sự kết hợp độc đáo giữa vị đắng của cà phê và một chút muối nhẹ nhàng, tạo nên một trải nghiệm độc đáo và thú vị cho vị giác.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Cà Phê Sữa Đá',N'/imageDist/Cf4.jpg',39000,N'Cf',N'Sự hòa quyện hoàn hảo giữa cà phê đậm đà và sữa ngọt mát, khi được pha trên đá tạo nên một món đồ uống thơm ngon, mát lạnh và sảng khoái.')
+	VALUES(N'Cà Phê Sữa Đá',N'/Cf4.jpg',39000,N'Cf',N'Sự hòa quyện hoàn hảo giữa cà phê đậm đà và sữa ngọt mát, khi được pha trên đá tạo nên một món đồ uống thơm ngon, mát lạnh và sảng khoái.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Cappuccino',N'/imageDist/Cf5.jpg',49000,N'Cf',N'Một sự kết hợp độc đáo giữa đường đen thơm ngon và sữa tươi mát lạnh, khi được pha trên đá tạo nên một món đồ uống ngọt ngào, đậm đà và sảng khoái.')
+	VALUES(N'Cappuccino',N'/Cf5.jpg',49000,N'Cf',N'Một sự kết hợp độc đáo giữa đường đen thơm ngon và sữa tươi mát lạnh, khi được pha trên đá tạo nên một món đồ uống ngọt ngào, đậm đà và sảng khoái.')
 
 -------------------Drinks
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Trà Đào',N'/imageDist/DN1.jpg',49000,N'DN',N'Một loại đồ uống trà trái cây phổ biến, có hương vị tươi mát của trà pha chế kết hợp với vị ngọt tự nhiên và mùi thơm của đào, tạo nên một món uống trái cây thơm ngon và sảng khoái.')
+	VALUES(N'Trà Đào',N'/DN1.jpg',49000,N'DN',N'Một loại đồ uống trà trái cây phổ biến, có hương vị tươi mát của trà pha chế kết hợp với vị ngọt tự nhiên và mùi thơm của đào, tạo nên một món uống trái cây thơm ngon và sảng khoái.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Trà Đào Kombucha',N'/imageDist/DN2.jpg',59000,N'DN',N'Sự kết hợp tuyệt vời giữa trà đào tươi mát và Kombucha tự nhiên lên men, kích thích sự cân bằng và sức khỏe tổng thể.')
+	VALUES(N'Trà Đào Kombucha',N'/DN2.jpg',59000,N'DN',N'Sự kết hợp tuyệt vời giữa trà đào tươi mát và Kombucha tự nhiên lên men, kích thích sự cân bằng và sức khỏe tổng thể.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Trà Đen',N'/imageDist/DN3.jpg',49000,N'DN',N'Loại trà được chế biến từ lá trà Camellia sinensis, có màu đen đặc trưng và hương vị đậm đà, thường được thưởng thức nóng hoặc đá, mang đến sự sảng khoái và thư giãn cho người uống.')
+	VALUES(N'Trà Đen',N'/DN3.jpg',49000,N'DN',N'Loại trà được chế biến từ lá trà Camellia sinensis, có màu đen đặc trưng và hương vị đậm đà, thường được thưởng thức nóng hoặc đá, mang đến sự sảng khoái và thư giãn cho người uống.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Trà Lài Hạt Sen',N'/imageDist/DN4.jpg',49000,N'DN',N'Một loại trà truyền thống của Việt Nam, kết hợp giữa lái (một loại lá trà) và hạt sen tươi, mang lại cảm giác thư thái và sảng khoái khi thưởng thức.')
+	VALUES(N'Trà Lài Hạt Sen',N'/DN4.jpg',49000,N'DN',N'Một loại trà truyền thống của Việt Nam, kết hợp giữa lái (một loại lá trà) và hạt sen tươi, mang lại cảm giác thư thái và sảng khoái khi thưởng thức.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Trà Vải',N'/imageDist/DN5.jpg',39000,N'DN',N'Một loại trà trái cây phổ biến, được làm từ lá trà kết hợp với vải tươi, mang đến cảm giác sảng khoái và thỏa mái khi thưởng thức.')
+	VALUES(N'Trà Vải',N'/DN5.jpg',39000,N'DN',N'Một loại trà trái cây phổ biến, được làm từ lá trà kết hợp với vải tươi, mang đến cảm giác sảng khoái và thỏa mái khi thưởng thức.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Frosty Caramel',N'/imageDist/DN6.jpg',59000,N'DN',N'Đồ uống đặc biệt và mát lạnh, kết hợp giữa kem, caramel và đá, kem mịn và hấp dẫn, mang lại cảm giác mát lạnh và sảng khoái trong ngày nóng.')
+	VALUES(N'Frosty Caramel',N'/DN6.jpg',59000,N'DN',N'Đồ uống đặc biệt và mát lạnh, kết hợp giữa kem, caramel và đá, kem mịn và hấp dẫn, mang lại cảm giác mát lạnh và sảng khoái trong ngày nóng.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Frosty Dâu',N'/imageDist/DN7.jpg',59000,N'DN',N'Đồ uống mát lạnh và thú vị, kết hợp giữa dâu tươi, kem và đá, mang đến cảm giác sảng khoái và hứng khởi khi thưởng thức.')
+	VALUES(N'Frosty Dâu',N'/DN7.jpg',59000,N'DN',N'Đồ uống mát lạnh và thú vị, kết hợp giữa dâu tươi, kem và đá, mang đến cảm giác sảng khoái và hứng khởi khi thưởng thức.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Frosty Macca Choco Chip',N'/imageDist/DN8.jpg',59000,N'DN',N'Đồ uống thơm ngon và độc đáo, kết hợp giữa hạt macca, viên chocolate chip và đá, mang lại cảm giác thư giãn và ngọt ngào khi thưởng thức.')
+	VALUES(N'Frosty Macca Choco Chip',N'/DN8.jpg',59000,N'DN',N'Đồ uống thơm ngon và độc đáo, kết hợp giữa hạt macca, viên chocolate chip và đá, mang lại cảm giác thư giãn và ngọt ngào khi thưởng thức.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Frosty Phúc Bồn Tử',N'/imageDist/DN9.jpg',59000,N'DN',N'Đồ uống độc đáo và bổ dưỡng, kết hợp giữa trái Phúc Bồn Tử tươi, kem và đá, mang đến cảm giác sảng khoái và hứng khởi khi thưởng thức.')
+	VALUES(N'Frosty Phúc Bồn Tử',N'/DN9.jpg',59000,N'DN',N'Đồ uống độc đáo và bổ dưỡng, kết hợp giữa trái Phúc Bồn Tử tươi, kem và đá, mang đến cảm giác sảng khoái và hứng khởi khi thưởng thức.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Frosty Xoài Nhiệt Đới',N'/imageDist/DN10.jpg',59000,N'DN',N'Đồ uống thú vị và mát lạnh, kết hợp giữa xoài tươi, kem và đá, mang đến cảm giác sảng khoái và hứng khởi trong những ngày nóng.')
+	VALUES(N'Frosty Xoài Nhiệt Đới',N'/DN10.jpg',59000,N'DN',N'Đồ uống thú vị và mát lạnh, kết hợp giữa xoài tươi, kem và đá, mang đến cảm giác sảng khoái và hứng khởi trong những ngày nóng.')
 
 -------------------Foods (Banh Man)
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Bánh Mì Chà Bông Phô Mai',N'/imageDist/FD1.jpg',29000,N'FD',N'Món ăn độc đáo và ngon miệng, với lớp bánh mì giòn tan, kết hợp hài hòa giữa chà bông thơm ngon và lớp phô mai béo ngậy, mang đến trải nghiệm ẩm thực đặc biệt và hấp dẫn.')
+	VALUES(N'Bánh Mì Chà Bông Phô Mai',N'/FD1.jpg',29000,N'FD',N'Món ăn độc đáo và ngon miệng, với lớp bánh mì giòn tan, kết hợp hài hòa giữa chà bông thơm ngon và lớp phô mai béo ngậy, mang đến trải nghiệm ẩm thực đặc biệt và hấp dẫn.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Bánh Mì Gậy Cá Ngừ Mayo',N'/imageDist/FD2.jpg',29000,N'FD',N'Món ăn độc đáo và ngon lành, với lớp bánh mì mềm mịn, kết hợp với miếng cá ngừ thơm ngon, được phủ lớp mayo kem mịn và các loại rau sống tươi ngon, mang đến trải nghiệm ẩm thực ngon miệng và bổ dưỡng.')
+	VALUES(N'Bánh Mì Gậy Cá Ngừ Mayo',N'/FD2.jpg',29000,N'FD',N'Món ăn độc đáo và ngon lành, với lớp bánh mì mềm mịn, kết hợp với miếng cá ngừ thơm ngon, được phủ lớp mayo kem mịn và các loại rau sống tươi ngon, mang đến trải nghiệm ẩm thực ngon miệng và bổ dưỡng.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Bánh Mì Que Pate',N'/imageDist/FD3.jpg',19000,N'FD',N'Món ăn truyền thống và phổ biến, với lớp bánh mì giòn tan, bên trong là phần nhân pate thơm ngon, tạo nên hương vị độc đáo và sự kết hợp hấp dẫn của các thành phần, mang đến trải nghiệm ẩm thực đặc biệt và ngon miệng.')
+	VALUES(N'Bánh Mì Que Pate',N'/FD3.jpg',19000,N'FD',N'Món ăn truyền thống và phổ biến, với lớp bánh mì giòn tan, bên trong là phần nhân pate thơm ngon, tạo nên hương vị độc đáo và sự kết hợp hấp dẫn của các thành phần, mang đến trải nghiệm ẩm thực đặc biệt và ngon miệng.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Bánh Mì Việt Nam Thịt Nguội',N'/imageDist/FD4.jpg',29000,N'FD',N'Món ăn truyền thống và phổ biến, với lớp bánh mì giòn tan, kết hợp với thịt nguội thơm ngon, pho mát, rau sống và gia vị truyền thống như hành, ngò, mang đến trải nghiệm ẩm thực đặc trưng và ngon miệng.')
+	VALUES(N'Bánh Mì Việt Nam Thịt Nguội',N'/FD4.jpg',29000,N'FD',N'Món ăn truyền thống và phổ biến, với lớp bánh mì giòn tan, kết hợp với thịt nguội thơm ngon, pho mát, rau sống và gia vị truyền thống như hành, ngò, mang đến trải nghiệm ẩm thực đặc trưng và ngon miệng.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Croissant Trứng Muối',N'/imageDist/FD5.jpg',29000,N'FD',N'Món ăn sáng ngon lành và độc đáo, với lớp bánh croissant giòn tan, bên trong là trứng muối mềm mịn và hấp dẫn, mang đến trải nghiệm ẩm thực đặc biệt và ngon miệng.')
+	VALUES(N'Croissant Trứng Muối',N'/FD5.jpg',29000,N'FD',N'Món ăn sáng ngon lành và độc đáo, với lớp bánh croissant giòn tan, bên trong là trứng muối mềm mịn và hấp dẫn, mang đến trải nghiệm ẩm thực đặc biệt và ngon miệng.')
 
 -------------------Foods (Banh Ngot)
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Mochi Kem Matcha',N'/imageDist/FD6.jpg',19000,N'FD',N'Bánh mochi truyền thống của Nhật Bản, có nhân kem matcha thơm ngon và mịn màng, được bọc bởi lớp vỏ mochi mềm dai, mang đến trải nghiệm ẩm thực ngon lành và đặc biệt.')
+	VALUES(N'Mochi Kem Matcha',N'/FD6.jpg',19000,N'FD',N'Bánh mochi truyền thống của Nhật Bản, có nhân kem matcha thơm ngon và mịn màng, được bọc bởi lớp vỏ mochi mềm dai, mang đến trải nghiệm ẩm thực ngon lành và đặc biệt.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Mochi Kem Việt Quất',N'/imageDist/FD7.jpg',19000,N'FD',N'Bánh mochi truyền thống có nguồn gốc từ Nhật Bản, với nhân kem việt quất mềm mịn và hương vị ngọt thanh, được bọc trong lớp vỏ mochi mềm dai, mang lại trải nghiệm ẩm thực đặc biệt và ngon miệng.')
+	VALUES(N'Mochi Kem Việt Quất',N'/FD7.jpg',19000,N'FD',N'Bánh mochi truyền thống có nguồn gốc từ Nhật Bản, với nhân kem việt quất mềm mịn và hương vị ngọt thanh, được bọc trong lớp vỏ mochi mềm dai, mang lại trải nghiệm ẩm thực đặc biệt và ngon miệng.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Mochi Kem Xoài',N'/imageDist/FD8.jpg',19000,N'FD',N'Bánh mochi truyền thống, có nhân kem xoài thơm ngon và mịn màng, được bọc trong lớp vỏ mochi mềm dai, mang đến trải nghiệm ẩm thực ngon lành và thú vị với hương vị trái cây đặc trưng của xoài.')
+	VALUES(N'Mochi Kem Xoài',N'/FD8.jpg',19000,N'FD',N'Bánh mochi truyền thống, có nhân kem xoài thơm ngon và mịn màng, được bọc trong lớp vỏ mochi mềm dai, mang đến trải nghiệm ẩm thực ngon lành và thú vị với hương vị trái cây đặc trưng của xoài.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Mousse Gấu Chocolate',N'/imageDist/FD9.jpg',19000,N'FD',N'Món tráng miệng ngọt ngào và đáng yêu, với lớp kem mousse chocolate nhẹ nhàng và mịn màng, hình dáng như một chú gấu đáng yêu, mang đến trải nghiệm ẩm thực ngon miệng và thú vị.')
+	VALUES(N'Mousse Gấu Chocolate',N'/FD9.jpg',19000,N'FD',N'Món tráng miệng ngọt ngào và đáng yêu, với lớp kem mousse chocolate nhẹ nhàng và mịn màng, hình dáng như một chú gấu đáng yêu, mang đến trải nghiệm ẩm thực ngon miệng và thú vị.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Mousse Red Velvet',N'/imageDist/FD10.jpg',19000,N'FD',N'Món tráng miệng đặc biệt và hấp dẫn, với lớp kem mousse màu đỏ đặc trưng của bánh Red Velvet, mềm mịn và thơm ngon, mang đến trải nghiệm ẩm thực ngọt ngào và thú vị cho người thưởng thức.')
+	VALUES(N'Mousse Red Velvet',N'/FD10.jpg',19000,N'FD',N'Món tráng miệng đặc biệt và hấp dẫn, với lớp kem mousse màu đỏ đặc trưng của bánh Red Velvet, mềm mịn và thơm ngon, mang đến trải nghiệm ẩm thực ngọt ngào và thú vị cho người thưởng thức.')
 
 -------------------Foods (Banh Kem)
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'CloudBurst',N'/imageDist/FD11.jpg',69000,N'FD',N'Sự kết hợp tuyệt vời giữa lớp kem mịn và hương vị trái cây đa dạng, tạo nên một trải nghiệm ngọt ngào và mát lạnh như những đám mây tràn đầy hương vị.')
+	VALUES(N'CloudBurst',N'/FD11.jpg',69000,N'FD',N'Sự kết hợp tuyệt vời giữa lớp kem mịn và hương vị trái cây đa dạng, tạo nên một trải nghiệm ngọt ngào và mát lạnh như những đám mây tràn đầy hương vị.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Manjari',N'/imageDist/FD12.jpg',69000,N'FD',N'Sự hòa quyện tuyệt vời giữa kem sô-cô-la cao cấp Manjari và lớp kem mịn, tạo nên một trải nghiệm độc đáo và ngọt ngào cho những tín đồ sô-cô-la.')
+	VALUES(N'Manjari',N'/FD12.jpg',69000,N'FD',N'Sự hòa quyện tuyệt vời giữa kem sô-cô-la cao cấp Manjari và lớp kem mịn, tạo nên một trải nghiệm độc đáo và ngọt ngào cho những tín đồ sô-cô-la.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Versaille',N'/imageDist/FD13.jpg',69000,N'FD',N'Sự kết hợp tinh tế giữa kem hạt tiêu và lớp kem mousse nhẹ nhàng, tạo nên một trải nghiệm thượng lưu và sang trọng cho những người yêu thích hương vị độc đáo.')
+	VALUES(N'Versaille',N'/FD13.jpg',69000,N'FD',N'Sự kết hợp tinh tế giữa kem hạt tiêu và lớp kem mousse nhẹ nhàng, tạo nên một trải nghiệm thượng lưu và sang trọng cho những người yêu thích hương vị độc đáo.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Meraki',N'/imageDist/FD14.jpg',69000,N'FD',N'Tác phẩm nghệ thuật bằng kem, kết hợp giữa hương vị tinh tế và thiết kế độc đáo, tạo nên một trải nghiệm trực quan và ngọt ngào cho thực khách.')
+	VALUES(N'Meraki',N'/FD14.jpg',69000,N'FD',N'Tác phẩm nghệ thuật bằng kem, kết hợp giữa hương vị tinh tế và thiết kế độc đáo, tạo nên một trải nghiệm trực quan và ngọt ngào cho thực khách.')
 
 INSERT INTO [dbo].[products]([product_name],[product_img],[price],[category_id],[product_description])
-	VALUES(N'Elfie',N'/imageDist/FD15.jpg',69000,N'FD',N'Món tráng miệng đáng yêu và phá cách, với lớp kem mousse nhẹ và lớp vỏ bánh mềm mịn, được trang trí với hình ảnh và họa tiết đáng yêu của các nhân vật huyền thoại, mang đến trải nghiệm thần tiên và ngọt ngào.')
+	VALUES(N'Elfie',N'/FD15.jpg',69000,N'FD',N'Món tráng miệng đáng yêu và phá cách, với lớp kem mousse nhẹ và lớp vỏ bánh mềm mịn, được trang trí với hình ảnh và họa tiết đáng yêu của các nhân vật huyền thoại, mang đến trải nghiệm thần tiên và ngọt ngào.')
 
 -------------------
 
