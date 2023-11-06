@@ -149,13 +149,13 @@ public class OrderServlet extends HttpServlet {
 
                         } else {
                               // phone trung voi phone cua nhan vien hoac quan ly
-                              request.setAttribute("check", "phone exits in database");
+                              request.setAttribute("check", "phone same in dastabase");
                               request.setAttribute("staff", request.getParameter("staff_id"));
                               request.getRequestDispatcher("/order.jsp").forward(request, response);
                         }
                   } else {
                         // khong ton tai 
-                        request.setAttribute("check", "phone exits in database");
+                        request.setAttribute("check", "The customer's phone number or name does not exist");
                         request.setAttribute("staff", request.getParameter("staff_id"));
                         request.getRequestDispatcher("/order.jsp").forward(request, response);
                   }

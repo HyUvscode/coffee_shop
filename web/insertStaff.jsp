@@ -119,7 +119,6 @@
 
                                     <div class="mt-5 text-center">
                                         <input type="submit" id="submitButton" class="btn btn-primary" value="Register" disabled>
-                                        
                                         <a href="/role/Ad?admin=<%=acc.getAccount_id()%>" class="btn btn-light">Cancel</a>
                                     </div>
                                 </div>

@@ -198,8 +198,8 @@
                                       if (rs != null) {
                                             while (rs.next()) {
                                                   count++;
-                                                  double a = Double.valueOf(rs.getString("total_price"));
-                                                  DecimalFormat df = new DecimalFormat("#.00");
+                                                  double a = Double.valueOf(rs.getDouble("total_price"));
+                                                  DecimalFormat df = new DecimalFormat("#.000");
                                 %>
                                 <tr>
                                     <th scope="row"><%= count%></th>

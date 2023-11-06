@@ -89,40 +89,37 @@
                                             <th>Total</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody id="cartBody">
                                         <%
-                                              if (session.getAttribute("cart") != null) {
-                                                    cart c = (cart) session.getAttribute("cart");
-                                                    ProductDAO pD = new ProductDAO();
-                                                    int count = 1;
-                                                    ArrayList<cart_items> list = c.getItems();
-                                                    for (cart_items item : list) {
-                                                          products p = pD.getProductByID(item.getProduct_id() + "");
+                                            if (session.getAttribute("cart") != null) {
+                                                cart c = (cart) session.getAttribute("cart");
+                                                ProductDAO pD = new ProductDAO();
+                                                int count = 1;
+                                                ArrayList<cart_items> list = c.getItems();
+                                                for (cart_items item : list) {
+                                                    products p = pD.getProductByID(item.getProduct_id() + "");
                                         %>
                                         <tr class="text-center">
                                             <td style="color: white"><%=count++%></td>
-
                                             <td class="product-name">
                                                 <h3><%=p.getProduct_name()%></h3>
                                             </td>
-
                                             <td class="image-prod"><div class="img" style="background-image:url(imageDist/<%=p.getProduct_img()%>);"></div></td>
-
-                                            <td id="price" class="price"><%=item.getPrice()%></td>
-
+                                            <td class="price"><%=item.getPrice()%></td>
                                             <td class="quantity">
                                                 <div class="input-group mb-3">
-                                                    <input value="<%=item.getQuantity()%>" type="number" name="quantity" id="quantity" class="quantity form-control input-number" value="1" min="1" max="100" oninput="updateCart()">
+                                                    <input value="<%=item.getQuantity()%>" type="number" class="quantity form-control input-number" min="1" max="100" oninput="updateCart(this)">
                                                 </div>
                                             </td>
-
-                                            <td id="total" class="total"></td>
-                                            <%
-                                                        }
-                                                  }
-                                            %>
-                                        </tr><!-- END TR-->
+                                            <td class="total"><%=pD.getTotalPrice(item.getProduct_id(),item.getQuantity())%></td>
+                                        </tr>
+                                        <%
+                                                }
+                                            }
+                                        %>
                                     </tbody>
+
+
                                 </table>
                             </div>
                         </div>

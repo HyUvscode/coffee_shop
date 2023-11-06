@@ -107,7 +107,7 @@
 
                                 <div class="mt-5 text-center">
                                     <input type="submit" id="submitButton" class="btn btn-primary" value="Register" disabled>
-<!--                                    <a href="#" class="btn btn-light">Cancel</a>-->
+                                    <a href="login" class="btn btn-light">Cancel</a>
                                 </div>
                             </div>
                         </div>
@@ -175,6 +175,10 @@
                     });
 
                 </script>
+                <%
+                                }
+                          }
+                    %>
             </form>
         </div>
 
