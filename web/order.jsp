@@ -122,7 +122,7 @@
                         </table>
                         <div style="margin: 20px 0;">
                         </div>
-                        <label>Quantity: <input type="number" name="quantity"  id=""></label>
+                        <label>Quantity: <input type="number" name="quantity" min="1" max="100" id=""></label>
                         <div style="margin: 10px 0;">
                         </div>
                         <label for="">Customer Information: <input name="phone" required style="width: 100%;" type="text" placeholder="Please enter customer phone number "></label>
