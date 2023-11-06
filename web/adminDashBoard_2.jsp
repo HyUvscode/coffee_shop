@@ -248,6 +248,7 @@
                                           int count = 0;
                                           if (set != null) {
                                                 while (set.next()) {
+//                                                    if(set.getString("category_i d").equals("Cf")){
                                                       count++;
                                     %>
                                     <tr>

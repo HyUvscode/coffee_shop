@@ -73,6 +73,22 @@ public class AccountDAO {
         }
         return acc;
     }
+    
+    public accounts getAccountByRoleID(String role_id){
+        accounts acc = null;
+        String query = "SELECT * FROM accounts WHERE role_id=?";
+        try {
+            PreparedStatement st = conn.prepareStatement(query);
+            st.setString(1, role_id);
+            ResultSet rs = st.executeQuery();
+            if (rs.next()) {
+                acc = new accounts(rs.getString("username"), rs.getString("password"), rs.getInt("account_id"),
+                        rs.getString("fullname"), rs.getInt("age"), rs.getString("email"), rs.getString("address"), rs.getString("phone"), rs.getString("role_id"));
+            }
+        } catch (Exception e) {
+        }
+        return acc;
+    }
 
     /**
      * Retrieves all orders associated with a specific staff member.
@@ -104,7 +120,7 @@ public class AccountDAO {
      */
     public ResultSet getAllAccounts() {
         ResultSet rs = null;
-        String query = "SELECT * FROM accoutns";
+        String query = "SELECT * FROM accounts";
         try {
             Statement st = conn.createStatement();
             rs = st.executeQuery(query);

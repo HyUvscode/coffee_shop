@@ -3,7 +3,7 @@
     Created on : Oct 26, 2023, 11:52:23 AM
     Author     : khuy
 --%>
-
+<%@page import="DAOs.ProductDAO"%>
 <%@page import="Models.accounts"%>
 <%@page import="DAOs.AccountDAO"%>
 <%@page import="java.sql.ResultSet"%>
@@ -243,7 +243,7 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
+                    </div>  
                 </nav>
 
                 <div class="col-xs-4 link" style="text-align: left; margin-left: 20px; margin-bottom: 20px">
@@ -278,10 +278,10 @@
                                     %>
                                     <tr>
                                         <th scope="row"><%= count%></th>
-                                        <td>PR_<%= set.getString("account_id")%></td>
+                                        <td>PR_<%= set.getInt("account_id")%></td>
                                         <td><%= set.getString("username")%></td>
                                         <td><%= set.getString("fullname")%></td>
-                                        <td><%= set.getString("age")%></td>
+                                        <td><%= set.getInt("age")%></td>
                                         <td><%= set.getString("phone")%></td>
                                         <td><%= set.getString("address")%></td>
                                         <td><a href="/edit?Ad=<%=acc.getAccount_id()%>&St=<%= set.getString("account_id")%>" class="edit" data-toggle="modal"><i
@@ -289,7 +289,7 @@
                                         </td>
                                     </tr>
                                     <%
-                                                      }
+                                                    }
                                                 }
                                           }
                                     %>

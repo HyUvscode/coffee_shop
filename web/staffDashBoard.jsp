@@ -207,7 +207,6 @@
                                     <td><%= rs.getString("fullname")%></td>
                                     <td><%=rs.getString("Date") %></td>
                                     <td><%= df.format(a)%></td>
-                                    <td><a href="/Order/Delete?staff=<%=rs.getString("staff_id")%>&id_order=<%= rs.getString("order_id")%>" class="btn btn-primary btn-sm">Delete</a></td>
                                 </tr>
                                 <%
                                       }

@@ -66,9 +66,9 @@ public class OrderServlet extends HttpServlet {
             String path = request.getRequestURI();
             if (path.endsWith("/order")) {
                   request.getRequestDispatcher("/order.jsp").forward(request, response);
-            } else if (path.endsWith("/order/Pay")) {
-                  request.getRequestDispatcher("/payByStaff.jsp").forward(request, response);
-            } else {
+//            } else if (path.endsWith("/order/Pay")) {
+//                  request.getRequestDispatcher("/payByStaff.jsp").forward(request, response);
+//            } else {
 //                  if (path.startsWith("/order/Delete")) {
 //                        String id_order = request.getParameter("id_order");
 //                        String id_staff = request.getParameter("staff");
