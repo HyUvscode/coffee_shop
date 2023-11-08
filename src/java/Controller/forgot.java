@@ -22,7 +22,6 @@ public class forgot extends HttpServlet {
             throws ServletException, IOException {
         String type = request.getParameter("type");
         if (type.equals("sendmail")) {
-            int stop = 0;
             String to = request.getParameter("email");
             final String from = "nguyenphuoclocbt28@gmail.com"; // Địa chỉ email của bạn
             final String password = "cpxo rlct zkit xfco"; // Mật khẩu email của bạn
@@ -69,8 +68,15 @@ public class forgot extends HttpServlet {
                         char randomChar = CHARACTERS.charAt(randomIndex);
                         randomString.append(randomChar);
                     }
-                    /////////
-                    message.setText("Ma reset pass: " + randomString.toString());
+
+                    message.setText("Password Reset Code: " + randomString.toString() + "\n\n"
+                            + "Hello,\n\n"
+                            + "You have requested to reset your password. Please use the following verification code to complete the password reset process:\n\n"
+                            + "Verification Code: " + randomString.toString() + "\n\n"
+                            + "If you did not request a password reset, please ignore this email. "
+                            + "If you have any questions or need further assistance, please contact our support team.\n\n"
+                            + "Best regards,\n"
+                            + "Your Company Name");
 
                     Transport.send(message);
 

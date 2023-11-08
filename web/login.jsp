@@ -87,7 +87,7 @@
                             <span class="txt1" style="color: white;">
                                 Forgot
                             </span>
-                            <a class="txt2" href="#">
+                            <a class="txt2" href="forgot.jsp">
                                 Username / Password?
                             </a>
                         </div>
