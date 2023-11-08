@@ -65,7 +65,7 @@
                                 <h2 class="h4">Contact Information</h2>
                             </div>
                             <div class="col-md-12 mb-3">
-                                <p><span>Address:</span>600 Nguyen Van Cu extension, An Binh, Ninh Kieu, Can Tho 900000, Vietnam</p>
+                                <p><span>Address:</span>600 Nguyen Van Cu, An Binh, Ninh Kieu, Can Tho 900000, Vietnam</p>
                             </div>
                             <div class="col-md-12 mb-3">
                                 <p><span>Phone:</span> <a href="tel://1234567920">+84 8996 895 99</a></p>

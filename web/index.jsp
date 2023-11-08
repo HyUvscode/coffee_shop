@@ -146,8 +146,8 @@
                             <div class="col-md-4 d-flex ftco-animate">
                                 <div class="icon"><span class="icon-my_location"></span></div>
                                 <div class="text">
-                                    <h3>198 West 21th Street</h3>
-                                    <p>	203 Fake St. Mountain View, San Francisco, California, USA</p>
+                                    <h3>600 Nguyen Van Cu</h3>
+                                    <p>	600 Nguyen Van Cu, An Binh, Ninh Kieu, Can Tho 900000, Vietnam</p>
                                 </div>
                             </div>
                             <div class="col-md-4 d-flex ftco-animate">
