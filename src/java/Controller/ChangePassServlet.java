@@ -16,7 +16,7 @@ import jakarta.servlet.http.HttpSession;
 
 /**
  *
- * @author Dao Thien Hieu Loi - CE171675
+ * @author Khuy
  */
 public class ChangePassServlet extends HttpServlet {
 
