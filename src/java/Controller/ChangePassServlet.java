@@ -4,6 +4,8 @@
  */
 package Controller;
 
+import DAOs.AccountDAO;
+import Models.accounts;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
@@ -14,7 +16,7 @@ import jakarta.servlet.http.HttpSession;
 
 /**
  *
- * @author khuy
+ * @author Dao Thien Hieu Loi - CE171675
  */
 public class ChangePassServlet extends HttpServlet {
 
@@ -74,20 +76,26 @@ public class ChangePassServlet extends HttpServlet {
       protected void doPost(HttpServletRequest request, HttpServletResponse response)
               throws ServletException, IOException {
             //String password = request.getParameter("");
-            String role_id = request.getParameter("role_id");
-            int account_id = Integer.parseInt(request.getParameter("account_id"));
+            String username = request.getParameter("username");
+        String oldPass = request.getParameter("oldPass");
+        String newPass = request.getParameter("newPass");
+
+        AccountDAO aD = new AccountDAO();
+        accounts acc = aD.checkLogin2(username, oldPass);
+        if (acc == null) {
+            String status = "error";
+            // Tạo chuỗi JSON
+            String json = "<script>alert('mat khau cu sai');</script><script>setTimeout(function() {window.location.href = '/profile?admin=2';}, 1000);</script>";
+            PrintWriter out = response.getWriter();
+            out.println(json);
             
+            //response.sendRedirect("/profile?admin=2");
+        } else {
+            aD.ChangePass(username, newPass);
             HttpSession session = request.getSession();
-            if (role_id.equals("St")) {
-                  session.setAttribute("login", "staff");
-                  response.sendRedirect("/role/St?staff=" + String.valueOf(account_id));
-            } else if (role_id.equals("Ad")) {
-                  session.setAttribute("login", "admin");
-                  response.sendRedirect("/role/Ad?admin=" + String.valueOf(account_id));
-            } else if (role_id.equals("Cus")) {
-                  session.setAttribute("login", "customer");
-                  response.sendRedirect("/role/Cus?customer=" + String.valueOf(account_id));
-            }
+            session.invalidate();
+            response.sendRedirect("/login");
+        }
       }
 
       /**

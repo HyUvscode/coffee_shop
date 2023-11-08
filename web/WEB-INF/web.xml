@@ -65,6 +65,10 @@
         <servlet-name>InsertRegister</servlet-name>
         <servlet-class>Controller.InsertRegister</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>forgot</servlet-name>
+        <servlet-class>Controller.forgot</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login/*</url-pattern>
@@ -120,6 +124,10 @@
     <servlet-mapping>
         <servlet-name>InsertRegister</servlet-name>
         <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>forgot</servlet-name>
+        <url-pattern>/forgot</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
